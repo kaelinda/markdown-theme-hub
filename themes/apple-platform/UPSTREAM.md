@@ -18,6 +18,8 @@
 - `apple-notes-dark.css` → inspired-original
 - `cupertino-clean.css` → inspired-original
 - `obsidian-cupertino/theme.css` → source-original（上游：`aaaaalexis/obsidian-cupertino`，MIT）
+- `typora-notes-theme/notes-light-theme/notes-light.css` → source-original（上游：`shakex/typora-notes-theme`，Apache-2.0，CSS-only vendoring）
+- `typora-notes-theme/notes-dark-theme/notes-dark.css` → source-original（上游：`shakex/typora-notes-theme`，Apache-2.0，CSS-only vendoring）
 
 ## 后续补齐标准
 
@@ -37,11 +39,12 @@
 也就是说：
 - 顶层 `apple-notes-*` / `cupertino-clean.css` 仍是 inspired-original
 - `obsidian-cupertino/` 子目录已经是可追溯、可合法分发的上游主题镜像
+- `typora-notes-theme/` 子目录已经补齐为可追溯的上游 CSS 源文件镜像（字体资产因单独许可审查风险未收录）
 
 ## 候选跟踪
 
 已新增候选跟踪文件：`CANDIDATES.md`
 
-当前已正式收录一个许可清晰的外部上游：`obsidian-cupertino/theme.css`（MIT）。
+当前已正式收录两个许可清晰的外部上游方向：`obsidian-cupertino/theme.css`（MIT）与 `typora-notes-theme` 的 light/dark CSS（Apache-2.0，CSS-only）。
 
-仍有一个较接近 Apple 气质的候选：`avenir-white.css`，但由于上游许可未明确，暂不正式收录。 
+仍有一个较接近 Apple 气质的候选：`avenir-white.css`，但由于上游许可未明确，暂不正式收录；另有 `obsidian_ia` 需继续拆分字体与 UI 依赖后再判断。 

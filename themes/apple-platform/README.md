@@ -57,6 +57,7 @@
 | Cupertino Clean | [cupertino-clean.css](cupertino-clean.css) | ⭐⭐⭐⭐ | Apple 官网 / Cupertino 风格启发 |
 | Apple Notes Dark | [apple-notes-dark.css](apple-notes-dark.css) | ⭐⭐⭐ | Apple HIG 暗色配色启发 |
 | Obsidian Cupertino (upstream) | [obsidian-cupertino/theme.css](obsidian-cupertino/theme.css) | - | `aaaaalexis/obsidian-cupertino` 上游源文件（MIT） |
+| Typora Notes Theme (upstream CSS-only) | [typora-notes-theme/notes-light-theme/notes-light.css](typora-notes-theme/notes-light-theme/notes-light.css) | - | `shakex/typora-notes-theme` 上游 CSS 源文件（Apache-2.0，字体资产未镜像） |
 | Palette Tokens | [palettes.json](palettes.json) | - | Apple system color token 汇总 |
 
 ---
@@ -69,6 +70,7 @@
 > 说明：本目录目前同时包含两类资源：
 > - 顶层 `apple-notes-*` / `cupertino-clean.css`：**Apple 风格启发的原创/整理版 CSS**
 > - `obsidian-cupertino/`：**已核验许可证后正式收录的上游主题源文件**（MIT）
+> - `typora-notes-theme/`：**已核验许可证后正式收录的上游 CSS 源文件**（Apache-2.0，按 CSS-only 方式镜像，字体资产未收录）
 
 ---
 

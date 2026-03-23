@@ -80,6 +80,8 @@ themes/content-platform/
 | **Cupertino Clean** | [cupertino-clean.css](themes/apple-platform/cupertino-clean.css) | inspired-original | ⭐⭐⭐⭐ | 品牌文章、发布稿、视觉型内容 |
 | **Apple Notes Dark** | [apple-notes-dark.css](themes/apple-platform/apple-notes-dark.css) | inspired-original | ⭐⭐⭐ | 夜间阅读、站外网页 |
 | **Obsidian Cupertino** | [theme.css](themes/apple-platform/obsidian-cupertino/theme.css) | source-original | - | 真实上游 Obsidian 主题源文件，MIT，可追溯收录 |
+| **Typora Notes Theme (Light)** | [notes-light.css](themes/apple-platform/typora-notes-theme/notes-light-theme/notes-light.css) | source-original | - | 真实上游 Typora Apple Notes 主题 CSS，Apache-2.0（仅镜像 CSS 源文件） |
+| **Typora Notes Theme (Dark)** | [notes-dark.css](themes/apple-platform/typora-notes-theme/notes-dark-theme/notes-dark.css) | source-original | - | 真实上游 Typora Apple Notes 主题 CSS，Apache-2.0（仅镜像 CSS 源文件） |
 
 **我的推荐**：`apple-notes-light.css`
 
@@ -92,6 +94,7 @@ themes/content-platform/
 **重要说明**：当前 Apple 目录已同时包含两类资源：
 - 三套 **Apple 风格启发的整理版**：`apple-notes-light.css` / `cupertino-clean.css` / `apple-notes-dark.css`
 - 一套 **真实上游源文件**：[`themes/apple-platform/obsidian-cupertino/theme.css`](themes/apple-platform/obsidian-cupertino/theme.css)，来源 `aaaaalexis/obsidian-cupertino`，MIT
+- 一组 **更接近 Apple Notes 的 Typora 上游 CSS**：[`themes/apple-platform/typora-notes-theme/`](themes/apple-platform/typora-notes-theme)，来源 `shakex/typora-notes-theme`，Apache-2.0（仅镜像 CSS / README / LICENSE，字体资产未收录）
 
 详见 [themes/apple-platform/UPSTREAM.md](themes/apple-platform/UPSTREAM.md)、[themes/apple-platform/CANDIDATES.md](themes/apple-platform/CANDIDATES.md) 与 [themes/SOURCES.md](themes/SOURCES.md)。
 

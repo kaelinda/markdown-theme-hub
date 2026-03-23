@@ -36,6 +36,15 @@
 | `apple-platform/obsidian-cupertino/theme.css` | source-original | https://github.com/aaaaalexis/obsidian-cupertino (`theme.css`, MIT) |
 | `apple-platform/obsidian-cupertino/LICENSE.txt` | source-original | https://github.com/aaaaalexis/obsidian-cupertino (`LICENSE.txt`, MIT) |
 | `apple-platform/obsidian-cupertino/manifest.json` | source-original | https://github.com/aaaaalexis/obsidian-cupertino (`manifest.json`) |
+| `apple-platform/typora-notes-theme/LICENSE` | source-original | https://github.com/shakex/typora-notes-theme (`LICENSE`, Apache-2.0) |
+| `apple-platform/typora-notes-theme/README.md` | source-original | https://github.com/shakex/typora-notes-theme (`README.md`) |
+| `apple-platform/typora-notes-theme/NOTICE.md` | source-derived | 仓库内补充的 vendoring 说明 |
+| `apple-platform/typora-notes-theme/notes-light-theme/README.md` | source-original | https://github.com/shakex/typora-notes-theme (`notes-light-theme/README.md`) |
+| `apple-platform/typora-notes-theme/notes-light-theme/notes-light.css` | source-original | https://github.com/shakex/typora-notes-theme (`notes-light-theme/notes-light.css`, Apache-2.0) |
+| `apple-platform/typora-notes-theme/notes-light-theme/notes-light/codeblock.xylight.css` | source-original | https://github.com/shakex/typora-notes-theme (`notes-light-theme/notes-light/codeblock.xylight.css`) |
+| `apple-platform/typora-notes-theme/notes-dark-theme/README.md` | source-original | https://github.com/shakex/typora-notes-theme (`notes-dark-theme/README.md`) |
+| `apple-platform/typora-notes-theme/notes-dark-theme/notes-dark.css` | source-original | https://github.com/shakex/typora-notes-theme (`notes-dark-theme/notes-dark.css`, Apache-2.0) |
+| `apple-platform/typora-notes-theme/notes-dark-theme/notes-dark/codeblock.xydark.css` | source-original | https://github.com/shakex/typora-notes-theme (`notes-dark-theme/notes-dark/codeblock.xydark.css`) |
 | `apple-platform/README.md` | source-derived | 仓库内整理文档 |
 | `apple-platform/INSTALL.md` | source-derived | 仓库内整理文档 |
 | `apple-platform/palettes.json` | source-derived | 仓库内整理元数据 |
@@ -45,6 +54,10 @@
 ## 当前结论
 
 - 内容平台主题：目前基本符合“提到的主题已收录源文件”
-- Apple 风格主题：目前是“风格启发的原创整理版”，**不是**外部开源主题源文件的完整收录
+- Apple 风格主题：当前已同时包含“风格启发的原创整理版”与“真实上游源文件 / CSS-only 镜像”，但仍不是完整覆盖
 
-后续如果补到合适的 Apple 风格开源主题源文件，应新增目录或在此文件中把状态更新为 `source-original`。
+当前已补到第二组更接近 Apple Notes 的真实上游 CSS（Typora Notes Theme）。
+
+后续重点不再是泛搜 Apple 外观，而是继续补：
+1. 更接近通用内容页而非编辑器 UI 的上游主题
+2. iA Writer / Craft 方向中许可清晰、可拆分分发的真实 CSS 源文件。
