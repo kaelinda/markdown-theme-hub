@@ -202,7 +202,8 @@
     "技术博客": ["normalize.css", "github-light.css", "water.css"],
     "夜间阅读": ["normalize.css", "github-dark.css"],
     "中文文档": ["normalize.css", "typo.css"],
-    "独立博客/长文阅读": ["sakura.css", "water.css"]
+    "独立博客/长文阅读": ["sakura.css", "water.css"],
+    "Typora长文写作/发布前预览": ["../typora/notion-light-enhanced.css"]
   },
   "typography": {
     "fontFamily": {

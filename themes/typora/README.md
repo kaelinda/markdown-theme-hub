@@ -63,6 +63,25 @@ cp autumnus.css ~/Library/Application\ Support/abnerworks.Typora/themes/
 
 ---
 
+### notion-light-enhanced.css ⭐本轮新增
+
+**来源**: [adrian-fuertes/typora-notion-theme](https://github.com/adrian-fuertes/typora-notion-theme)
+
+**风格**: Notion 风格正文区，适合长文写作、博客正文、发布前预览
+
+**为什么收录**:
+- MIT 许可清晰
+- 真实上游单文件 CSS
+- 正文阅读体验稳定，视觉克制
+- 比偏编辑器 UI 的主题更适合“内容平台优先”场景
+
+**安装**:
+```bash
+cp notion-light-enhanced.css ~/Library/Application\ Support/abnerworks.Typora/themes/
+```
+
+---
+
 ## 如何安装
 
 ### macOS

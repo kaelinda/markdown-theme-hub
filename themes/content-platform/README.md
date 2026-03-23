@@ -53,6 +53,8 @@
 
 补充说明：本轮筛选记录见 [CANDIDATES.md](CANDIDATES.md)。
 
+> 如果你的工作流是“先在 Typora 写，再导出到公众号 / 博客”，本轮新增推荐的 Typora 预览主题是 [`../typora/notion-light-enhanced.css`](../typora/notion-light-enhanced.css)：正文区更克制，适合长文写作时预览最终发布质感。
+
 ## 📦 已收录主题
 
 | 主题 | 大小 | 风格 | 推荐度 | 来源 |

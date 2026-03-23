@@ -55,6 +55,7 @@ themes/content-platform/
 | **GitHub Night** | [github-night.css](themes/typora/github-night.css) | 🐙 GitHub Dark | [kinoute/typora-github-night-theme](https://github.com/kinoute/typora-github-night-theme) |
 | **Lapis** | [lapis.css](themes/typora/lapis.css) | 💙 清爽蓝色调 | [YiNNx/typora-theme-lapis](https://github.com/YiNNx/typora-theme-lapis) |
 | **Autumnus** | [autumnus.css](themes/typora/autumnus.css) | 🍂 中文优化 | [Soanguy/typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus) |
+| **Notion Light Enhanced** | [notion-light-enhanced.css](themes/typora/notion-light-enhanced.css) | 📝 长文发布 / 博客正文 / Notion 风格 | [adrian-fuertes/typora-notion-theme](https://github.com/adrian-fuertes/typora-notion-theme) |
 
 ### 公众号/内容平台主题 ⭐用户选择
 
@@ -113,6 +114,7 @@ themes/content-platform/
 | 夜间阅读 | github-dark.css / smartisan-dark.css |
 | 中文文档 | typo.css |
 | 独立博客 / 长文阅读 | sakura.css / water.css |
+| Typora 长文写作 / 发布前预览 | notion-light-enhanced.css |
 
 ---
 

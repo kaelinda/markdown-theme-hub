@@ -24,8 +24,9 @@
 | sakura.css | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，极简长文阅读取向 |
 | water.css | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，通用内容页/博客正文取向 |
 | normalize.css | ✅ | ✅ | source-original | 已收录 |
+| Typora Notion Light Enhanced | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，真实上游单文件 CSS，适合 Typora 长文写作 / 博客正文预览 |
 
-结论：这部分已从“公众号样式”扩展到“公众号 + 通用长文阅读 + 独立博客正文”，且新增两套低依赖、许可清晰、可直接 vendoring 的真实上游 CSS。
+结论：这部分已从“公众号样式”扩展到“公众号 + 通用长文阅读 + 独立博客正文 + Typora 发布前预览”，新增的 `Typora Notion Light Enhanced` 让仓库在“写作阶段预览长文成品感”这条链路上更完整。
 
 ---
 

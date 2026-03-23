@@ -4,6 +4,16 @@
 
 ## 本轮正式收录
 
+### 0) Typora Notion Light Enhanced
+- 仓库：<https://github.com/adrian-fuertes/typora-notion-theme>
+- 收录文件：`../typora/notion-light-enhanced.css`
+- 许可：MIT
+- 收录理由：
+  - 真实上游单文件 CSS，可直接 vendoring
+  - Typora 阅读区排版克制，适合博客正文、长文发布前预览
+  - Notion 风格偏内容展示，不是花哨的编辑器 UI 皮肤
+  - 对运行时依赖相对低，虽带少量 Typora / CodeMirror 变量，但正文区可稳定使用
+
 ### 1) Sakura
 - 仓库：<https://github.com/oxalorg/sakura>
 - 收录文件：`sakura.css`
@@ -39,6 +49,10 @@
   - 强依赖 Obsidian、CodeMirror、HyperMD 等运行时类名
   - 主题重点在编辑器 UI，而非纯内容阅读区
   - 即使许可清晰，也不符合“公众号 / 内容平台优先”的收录标准
+- 本轮具体排除：
+  - `noatpad/typora-theme-ursine`：README 明确说明仓库不再直接保存 CSS，转为 Sass/Gulp + release zip 分发，不满足“仓库内真实上游 CSS 源文件优先”
+  - `jhildenbiddle/typora-themeable`：MIT，但更像可配置主题框架，不是针对公众号 / 博客正文的单一内容主题
+  - `doocs/md` / `mdnice/markdown-nice` / `Teeanwhen/Markdown-to-Wechat-project`：更偏编辑器 / 转换工具，不是稳定可 vendoring 的单体正文 CSS 主题
 
 ### 3) 一些仿 Medium / iA Writer / Craft 的项目
 - 结论：视觉方向接近，但多数存在边界问题

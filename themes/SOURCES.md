@@ -28,6 +28,8 @@
 | `content-platform/README.md` | source-derived | 仓库内整理文档 |
 | `content-platform/CANDIDATES.md` | source-derived | 仓库内筛选与排除记录 |
 | `content-platform/palettes.json` | source-derived | 仓库内整理元数据 |
+| `typora/notion-light-enhanced.css` | source-original | https://github.com/adrian-fuertes/typora-notion-theme (`themes/enhanced/notion-light-enhanced.css`, MIT) |
+| `typora/LICENSE.notion-theme.txt` | source-original | https://github.com/adrian-fuertes/typora-notion-theme (`LICENSE`, MIT) |
 
 ---
 
@@ -67,6 +69,12 @@
 1. 更接近通用内容页而非编辑器 UI 的上游主题
 2. iA Writer / Craft 方向中许可清晰、可拆分分发的真实 CSS 源文件。
 
-本轮补充结论（2026-03-23）：
+本轮补充结论（2026-03-23 Apple / Craft 复检）：
 - `obsidian_ia` 虽为 MIT，但当前上游主 CSS 含嵌入字体数据，且明显依赖 Obsidian / CodeMirror / HyperMD 运行环境，因此继续保留为候选，不正式 vendoring
 - Craft 邻近方向在 2026-03-23 的 Apple / Craft / iA Writer 高精度复检中仍未发现新的、许可与资产边界都清晰的可收录上游 CSS；新增命中主要是 `7368697661/Origami`（MIT，但为 Obsidian 主题）与 `iainc/iA-Writer-Templates`（模板 bundle，不是可直接 vendoring 的单体阅读区 CSS），因此继续按“纯内容样式 > 编辑器 UI 皮肤”的原则收窄搜索
+
+本轮补充结论（2026-03-23 内容平台优先复检）：
+- 新增正式收录 `adrian-fuertes/typora-notion-theme` 的 `notion-light-enhanced.css`：MIT、真实上游 CSS、单文件可 vendoring，正文阅读区克制，适合 Typora 中做博客长文 / 发布前预览
+- `noatpad/typora-theme-ursine`：视觉方向合适，但仓库已切到 Sass/Gulp 开发流，README 明确说明 repo 不再直接保存 CSS，主要通过 release zip 分发，因此不作为“仓库内真实上游 CSS 源文件”正式收录
+- `jhildenbiddle/typora-themeable`：MIT 且工程质量高，但更像可配置主题框架，不是明确面向公众号 / 博客长文的单一正文主题，本轮先不纳入内容平台优先清单
+- `doocs/md` / `mdnice/markdown-nice` / `Markdown-to-Wechat-project`：更偏编辑器或转换工具；主题资产不是稳定的单体上游 CSS，或许可/资产边界不适合作为本仓库的直接 vendoring 对象

@@ -15,6 +15,7 @@ declare -A TYPORA_THEMES=(
   ["github-night"]="https://raw.githubusercontent.com/kinoute/typora-github-night-theme/master/github-night.css"
   ["autumnus"]="https://raw.githubusercontent.com/Soanguy/typora-theme-autumnus/master/autumnus.css"
   ["lapis"]="https://raw.githubusercontent.com/YiNNx/typora-theme-lapis/master/lapis.css"
+  ["notion-light-enhanced"]="https://raw.githubusercontent.com/adrian-fuertes/typora-notion-theme/main/themes/enhanced/notion-light-enhanced.css"
   ["orange-heart"]="https://raw.githubusercontent.com/evgo2017/typora-theme-orange-heart/master/orange-heart.css"
   ["pie"]="https://raw.githubusercontent.com/kevinzhao2233/typora-theme-pie/master/pie.css"
   ["spring"]="https://raw.githubusercontent.com/SprInec/typora-spring-theme/master/spring.css"
