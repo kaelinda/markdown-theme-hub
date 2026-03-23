@@ -1,6 +1,6 @@
 # 锤子便签主题安装方案
 
-> 基于 smartisan-light.css，提供丝滑优雅的安装体验
+> 基于 smartisan.css，提供丝滑优雅的安装体验
 
 ---
 

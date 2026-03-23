@@ -56,7 +56,7 @@
 | 主题 | 大小 | 风格 | 推荐度 | 来源 |
 |------|------|------|--------|------|
 | **typo.css** | 7.6KB | 中文排版优化 | ⭐⭐⭐⭐⭐ | [sofish/typo.css](https://github.com/sofish/typo.css) |
-| **smartisan-light.css** | 23KB | 锤子便签风格 | ⭐⭐⭐⭐ | [nihaojob/markdown-css-smartisan](https://github.com/nihaojob/markdown-css-smartisan) |
+| **smartisan.css** | 23KB | 锤子便签风格 | ⭐⭐⭐⭐ | [nihaojob/markdown-css-smartisan](https://github.com/nihaojob/markdown-css-smartisan) |
 | **smartisan-dark.css** | 23KB | 锤子便签暗色 | ⭐⭐⭐ | [nihaojob/markdown-css-smartisan](https://github.com/nihaojob/markdown-css-smartisan) |
 | **github-light.css** | 22KB | GitHub 亮色 | ⭐⭐ | [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) |
 | **github-dark.css** | 22KB | GitHub 暗色 | ⭐⭐ | [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) |

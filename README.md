@@ -4,6 +4,9 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-kaelinda/markdown--theme--hub-blue?logo=github)](https://github.com/kaelinda/markdown-theme-hub)
 
+- 来源状态总表：[`themes/SOURCES.md`](themes/SOURCES.md)
+- 收录进度台账：[`themes/THEME_INVENTORY.md`](themes/THEME_INVENTORY.md)
+
 ---
 
 ## ⚡ 快速开始
