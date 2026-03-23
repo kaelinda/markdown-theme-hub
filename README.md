@@ -18,6 +18,9 @@ cd markdown-theme-hub
 # Typora 主题目录
 themes/typora/
 
+# 内容平台主题目录
+themes/content-platform/
+
 # 复制到你需要的编辑器主题目录
 # Typora: 打开偏好设置 → 外观 → 打开主题文件夹
 # 复制 themes/typora/*.css 到 Typora 主题目录
@@ -52,32 +55,31 @@ themes/typora/
 
 ### 公众号/内容平台主题 ⭐推荐
 
-| 主题 | 文件 | 推荐度 | 来源 |
-|------|------|--------|------|
-| **typo.css** | [typo.css](themes/content-platform/typo.css) | ⭐⭐⭐⭐⭐ | [sofish/typo.css](https://github.com/sofish/typo.css) |
-| **锤子便签** | [smartisan-light.css](themes/content-platform/smartisan-light.css) | ⭐⭐⭐⭐ | [nihaojob/markdown-css-smartisan](https://github.com/nihaojob/markdown-css-smartisan) |
+| 主题 | 文件 | 推荐度 | 适用场景 |
+|------|------|--------|----------|
+| **Typo** | [typo.css](themes/content-platform/typo.css) | ⭐⭐⭐⭐⭐ | 中文排版、公众号文章 |
+| **锤子便签** | [smartisan.css](themes/content-platform/smartisan.css) | ⭐⭐⭐⭐ | 长文阅读、温暖风格 |
+| **锤子便签暗色** | [smartisan-dark.css](themes/content-platform/smartisan-dark.css) | ⭐⭐⭐⭐ | 夜间阅读 |
+| **GitHub Light** | [github-light.css](themes/content-platform/github-light.css) | ⭐⭐⭐⭐ | 技术博客、开发者文档 |
+| **GitHub Dark** | [github-dark.css](themes/content-platform/github-dark.css) | ⭐⭐⭐⭐ | 暗色主题、夜间阅读 |
 
-**推荐理由**：`typo.css` 专为中文排版优化，轻量（7.6KB）、稳定、兼容性好，适合公众号文章和技术文档。
+**推荐理由**：
+- `typo.css` - 专为中文排版优化，轻量（7.6KB），适合公众号
+- `smartisan.css` - 锤子便签经典风格，温暖舒适
+- `github-*.css` - 开发者熟悉，代码高亮友好
 
-详见 [公众号主题推荐](themes/content-platform/README.md)
-
-### GitHub 风格主题
-
-详见 [GITHUB.md](GITHUB.md)，包含：
-- VS Code 官方 GitHub 主题（7 种变体）
-- Terminal 主题（iTerm2/Alacritty/Gnome/Zsh）
-- 浏览器扩展
+详见 [内容平台配色方案](themes/content-platform/README.md)
 
 ---
 
-## 📚 更多资源
+## 🎨 快速推荐
 
-| 文档 | 描述 |
-|------|------|
-| [GALLERY.md](GALLERY.md) | 主题画廊 - 视觉预览 |
-| [COLORS.md](COLORS.md) | 配色方案 - Catppuccin/Rosé Pine/Dracula 等 |
-| [QUICKSTART.md](QUICKSTART.md) | 快速入门指南 |
-| [GITHUB.md](GITHUB.md) | GitHub 风格主题专题 |
+| 场景 | 推荐主题 |
+|------|----------|
+| 公众号文章 | typo.css + smartisan.css |
+| 技术博客 | github-light.css |
+| 夜间阅读 | github-dark.css / smartisan-dark.css |
+| 中文文档 | typo.css |
 
 ---
 
@@ -92,12 +94,27 @@ themes/typora/
 # 4. 重启 Typora，从菜单选择主题
 ```
 
-### Obsidian
+### 公众号/网页使用
 
-Obsidian 主题建议通过应用内安装：
-1. 设置 → 外观 → 主题 → 管理
-2. 搜索主题名称
-3. 点击安装
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>我的文章</title>
+  <!-- 基础重置 -->
+  <link rel="stylesheet" href="normalize.css">
+  <!-- 选择一个主题 -->
+  <link rel="stylesheet" href="smartisan.css">
+</head>
+<body>
+  <article class="markdown-body">
+    <h1>标题</h1>
+    <p>内容...</p>
+  </article>
+</body>
+</html>
+```
 
 ---
 
@@ -107,7 +124,7 @@ Obsidian 主题建议通过应用内安装：
 
 **贡献方式**：
 1. Fork 本仓库
-2. 添加主题 CSS 文件到对应目录（`themes/typora/` 等）
+2. 添加主题 CSS 文件到对应目录
 3. 更新 README.md 主题列表
 4. 提交 PR
 
