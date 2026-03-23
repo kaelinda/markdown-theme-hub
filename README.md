@@ -40,7 +40,7 @@ themes/typora/
 
 ## 📦 已收录主题
 
-### Typora 主题
+### Typora 编辑器主题
 
 | 主题 | 文件 | 风格 | 来源 |
 |------|------|------|------|
@@ -49,6 +49,17 @@ themes/typora/
 | **GitHub Night** | [github-night.css](themes/typora/github-night.css) | 🐙 GitHub Dark | [kinoute/typora-github-night-theme](https://github.com/kinoute/typora-github-night-theme) |
 | **Lapis** | [lapis.css](themes/typora/lapis.css) | 💙 清爽蓝色调 | [YiNNx/typora-theme-lapis](https://github.com/YiNNx/typora-theme-lapis) |
 | **Autumnus** | [autumnus.css](themes/typora/autumnus.css) | 🍂 中文优化 | [Soanguy/typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus) |
+
+### 公众号/内容平台主题 ⭐推荐
+
+| 主题 | 文件 | 推荐度 | 来源 |
+|------|------|--------|------|
+| **typo.css** | [typo.css](themes/content-platform/typo.css) | ⭐⭐⭐⭐⭐ | [sofish/typo.css](https://github.com/sofish/typo.css) |
+| **锤子便签** | [smartisan-light.css](themes/content-platform/smartisan-light.css) | ⭐⭐⭐⭐ | [nihaojob/markdown-css-smartisan](https://github.com/nihaojob/markdown-css-smartisan) |
+
+**推荐理由**：`typo.css` 专为中文排版优化，轻量（7.6KB）、稳定、兼容性好，适合公众号文章和技术文档。
+
+详见 [公众号主题推荐](themes/content-platform/README.md)
 
 ### GitHub 风格主题
 
