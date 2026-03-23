@@ -291,6 +291,124 @@
       ]
     }
   },
+  "github": {
+    "name": "GitHub 风格",
+    "description": "GitHub 官方配色风格复刻",
+    "officialResources": {
+      "primer": "https://primer.style",
+      "primerColors": "https://primer.style/primitives/colors",
+      "vscodeTheme": "https://github.com/primer/github-vscode-theme"
+    },
+    "vscode": [
+      {
+        "name": "GitHub Light Default",
+        "description": "标准亮色模式",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+      },
+      {
+        "name": "GitHub Dark Default",
+        "description": "标准暗色模式",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+      },
+      {
+        "name": "GitHub Dark Dimmed",
+        "description": "柔和暗色模式",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+      },
+      {
+        "name": "GitHub Light High Contrast",
+        "description": "高对比亮色",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+      },
+      {
+        "name": "GitHub Dark High Contrast",
+        "description": "高对比暗色",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+      },
+      {
+        "name": "GitHub Light Colorblind",
+        "description": "色盲友好亮色",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+      },
+      {
+        "name": "GitHub Dark Colorblind",
+        "description": "色盲友好暗色",
+        "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
+      }
+    ],
+    "typora": [
+      {
+        "name": "typora-github-night-theme",
+        "description": "GitHub Dark 主题复刻",
+        "url": "https://github.com/kinoute/typora-github-night-theme"
+      }
+    ],
+    "terminal": [
+      {
+        "name": "github-vscode-theme-iterm",
+        "description": "GitHub VS Code 主题的 iTerm 版本",
+        "url": "https://github.com/cdalvaro/github-vscode-theme-iterm"
+      },
+      {
+        "name": "github-dark-theme-iterm2",
+        "description": "GitHub Dark iTerm2 主题",
+        "url": "https://github.com/jordanjustice/github-dark-theme-iterm2"
+      },
+      {
+        "name": "alacritty-github-theme",
+        "description": "GitHub 配色 for Alacritty",
+        "url": "https://github.com/axemanofic/alacritty-github-theme"
+      },
+      {
+        "name": "zsh-github-dark",
+        "description": "GitHub Dark Zsh 主题",
+        "url": "https://github.com/yellow-pine/zsh-github-dark"
+      }
+    ],
+    "vim": [
+      {
+        "name": "vim-github-theme",
+        "description": "GitHub 主题 for Vim",
+        "url": "https://github.com/leviosa42/vim-github-theme"
+      }
+    ],
+    "helix": [
+      {
+        "name": "github-helix-theme",
+        "description": "GitHub 配色 for Helix",
+        "url": "https://github.com/onvlt/github-helix-theme"
+      }
+    ],
+    "browser": [
+      {
+        "name": "MakeGithubGreatAgain",
+        "description": "恢复 GitHub 经典外观",
+        "url": "https://github.com/DennisSnijder/MakeGithubGreatAgain"
+      },
+      {
+        "name": "dark-github",
+        "description": "GitHub Dark 模式",
+        "url": "https://github.com/vednoc/dark-github"
+      },
+      {
+        "name": "gitark",
+        "description": "GitHub Dark 主题",
+        "url": "https://github.com/imfunniee/gitark"
+      }
+    ],
+    "other": [
+      {
+        "name": "prism-theme-github",
+        "description": "GitHub 主题 for Prism.js",
+        "url": "https://github.com/katorlys/prism-theme-github"
+      },
+      {
+        "name": "mkdocs-Github",
+        "description": "GitHub 风格文档主题",
+        "url": "https://github.com/g3xx/mkdocs-Github"
+      }
+    ]
+  },
   "tags": {
     "light": "亮色主题",
     "dark": "暗色主题",
@@ -301,6 +419,7 @@
     "designer": "设计师风格",
     "chinese": "中文优化",
     "crossPlatform": "跨平台",
-    "mobile": "支持移动端"
+    "mobile": "支持移动端",
+    "github": "GitHub 风格"
   }
 }

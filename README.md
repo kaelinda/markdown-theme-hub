@@ -57,6 +57,10 @@
 
 ### 资源
 
+- [**GitHub 风格主题**](GITHUB.md) - GitHub 官方配色复刻（VS Code / Terminal / 浏览器扩展）
+- [主题画廊](GALLERY.md) - 视觉化主题展示
+- [配色方案](COLORS.md) - Catppuccin / Rosé Pine / Dracula 等配色
+- [快速入门](QUICKSTART.md) - 5 分钟找到并安装主题
 - [主题标签索引](#-主题标签索引)
 - [主题开发工具](#主题开发工具)
 - [一键安装脚本](#-一键安装脚本)
