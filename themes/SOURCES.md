@@ -33,6 +33,9 @@
 | `apple-platform/apple-notes-light.css` | inspired-original | Apple HIG Color + Apple Notes 风格启发 |
 | `apple-platform/apple-notes-dark.css` | inspired-original | Apple HIG Color + Apple Notes / iOS Dark 风格启发 |
 | `apple-platform/cupertino-clean.css` | inspired-original | Apple 官网 / Cupertino 风格启发 |
+| `apple-platform/obsidian-cupertino/theme.css` | source-original | https://github.com/aaaaalexis/obsidian-cupertino (`theme.css`, MIT) |
+| `apple-platform/obsidian-cupertino/LICENSE.txt` | source-original | https://github.com/aaaaalexis/obsidian-cupertino (`LICENSE.txt`, MIT) |
+| `apple-platform/obsidian-cupertino/manifest.json` | source-original | https://github.com/aaaaalexis/obsidian-cupertino (`manifest.json`) |
 | `apple-platform/README.md` | source-derived | 仓库内整理文档 |
 | `apple-platform/INSTALL.md` | source-derived | 仓库内整理文档 |
 | `apple-platform/palettes.json` | source-derived | 仓库内整理元数据 |

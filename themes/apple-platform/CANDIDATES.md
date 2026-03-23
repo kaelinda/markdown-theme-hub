@@ -27,10 +27,44 @@
 
 ---
 
+## 候选 2：obsidian-cupertino / theme.css
+
+- 候选来源仓库：`aaaaalexis/obsidian-cupertino`
+- 候选文件：`theme.css`
+- 风格判断：**Cupertino / Apple-native strongly adjacent**
+  - 仓库直接以 `Cupertino` 命名
+  - README 与下游引用均明确描述为 Apple / Liquid Glass / 原生系统观感
+  - 视觉风格与本仓库 Apple 方向高度一致
+
+### 许可证核验
+
+- `README` 明示：`Cupertino is licensed under the MIT license`
+- 仓库根目录存在 `LICENSE.txt`
+- `LICENSE.txt` 内容为标准 MIT License
+
+### 当前结论
+
+- **优点**：风格明确、上游仓库清晰、许可清晰、可合法二次分发
+- **注意**：这是 **Obsidian 主题源文件**，并非“通用内容平台 Markdown 样式”
+- **状态**：`accepted-source-original`
+
+### 已执行落地
+
+已按上游原始文件收录到：
+
+- `themes/apple-platform/obsidian-cupertino/theme.css`
+- `themes/apple-platform/obsidian-cupertino/LICENSE.txt`
+- `themes/apple-platform/obsidian-cupertino/manifest.json`
+
+---
+
 ## 目前判断
 
-Apple 方向暂时还没有找到“既明确 Apple 风格、又许可清晰、又适合当前仓库收录”的上游源文件。
+Apple 方向已经找到并正式收录了一个“许可清晰、来源明确、可合法分发”的真实上游源文件：
 
-当前更稳妥的策略仍然是：
-- 仓库保留 `inspired-original` 的 Apple 整理主题
-- 对外部候选继续做许可和来源核验
+- `aaaaalexis/obsidian-cupertino/theme.css`（MIT）
+
+当前更稳妥的策略变为：
+- 保留现有 `inspired-original` Apple 整理主题，继续服务通用内容平台场景
+- 同时补充 `source-original` 的真实上游主题源文件
+- 对其余外部候选继续做许可和来源核验

@@ -79,6 +79,7 @@ themes/content-platform/
 | **Apple Notes Light** | [apple-notes-light.css](themes/apple-platform/apple-notes-light.css) | inspired-original | ⭐⭐⭐⭐⭐ | 公众号长文、知识内容、产品文档 |
 | **Cupertino Clean** | [cupertino-clean.css](themes/apple-platform/cupertino-clean.css) | inspired-original | ⭐⭐⭐⭐ | 品牌文章、发布稿、视觉型内容 |
 | **Apple Notes Dark** | [apple-notes-dark.css](themes/apple-platform/apple-notes-dark.css) | inspired-original | ⭐⭐⭐ | 夜间阅读、站外网页 |
+| **Obsidian Cupertino** | [theme.css](themes/apple-platform/obsidian-cupertino/theme.css) | source-original | - | 真实上游 Obsidian 主题源文件，MIT，可追溯收录 |
 
 **我的推荐**：`apple-notes-light.css`
 
@@ -88,7 +89,11 @@ themes/content-platform/
 - `cupertino-clean.css` 视觉更强，适合品牌稿，但不如 Notes 风格耐读
 - `apple-notes-dark.css` 更适合站外网页，不是内容平台主流场景
 
-**重要说明**：这三套当前是 **Apple 风格启发的整理版**，不是外部开源主题源文件的原样镜像。详见 [themes/apple-platform/UPSTREAM.md](themes/apple-platform/UPSTREAM.md)、[themes/apple-platform/CANDIDATES.md](themes/apple-platform/CANDIDATES.md) 与 [themes/SOURCES.md](themes/SOURCES.md)。
+**重要说明**：当前 Apple 目录已同时包含两类资源：
+- 三套 **Apple 风格启发的整理版**：`apple-notes-light.css` / `cupertino-clean.css` / `apple-notes-dark.css`
+- 一套 **真实上游源文件**：[`themes/apple-platform/obsidian-cupertino/theme.css`](themes/apple-platform/obsidian-cupertino/theme.css)，来源 `aaaaalexis/obsidian-cupertino`，MIT
+
+详见 [themes/apple-platform/UPSTREAM.md](themes/apple-platform/UPSTREAM.md)、[themes/apple-platform/CANDIDATES.md](themes/apple-platform/CANDIDATES.md) 与 [themes/SOURCES.md](themes/SOURCES.md)。
 
 详见 [Apple 风格主题方案](themes/apple-platform/README.md)
 

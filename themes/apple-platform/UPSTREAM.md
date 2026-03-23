@@ -17,6 +17,7 @@
 - `apple-notes-light.css` → inspired-original
 - `apple-notes-dark.css` → inspired-original
 - `cupertino-clean.css` → inspired-original
+- `obsidian-cupertino/theme.css` → source-original（上游：`aaaaalexis/obsidian-cupertino`，MIT）
 
 ## 后续补齐标准
 
@@ -31,10 +32,16 @@
 
 把本目录理解为：
 
-**Apple 风格整理包**，而不是 **Apple 主题源文件镜像仓**。
+**Apple 风格整理包 + 已补齐的部分真实上游源文件**。
+
+也就是说：
+- 顶层 `apple-notes-*` / `cupertino-clean.css` 仍是 inspired-original
+- `obsidian-cupertino/` 子目录已经是可追溯、可合法分发的上游主题镜像
 
 ## 候选跟踪
 
 已新增候选跟踪文件：`CANDIDATES.md`
 
-当前已发现一个较接近 Apple 气质的外部候选：`avenir-white.css`，但由于上游许可未明确，暂不正式收录。 
+当前已正式收录一个许可清晰的外部上游：`obsidian-cupertino/theme.css`（MIT）。
+
+仍有一个较接近 Apple 气质的候选：`avenir-white.css`，但由于上游许可未明确，暂不正式收录。 

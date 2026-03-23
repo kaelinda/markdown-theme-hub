@@ -34,6 +34,7 @@
 | Apple Notes Light | ✅ | ✅ | inspired-original | 仓库原创整理版，不是外部原始主题镜像 |
 | Apple Notes Dark | ✅ | ✅ | inspired-original | 仓库原创整理版，不是外部原始主题镜像 |
 | Cupertino Clean | ✅ | ✅ | inspired-original | 仓库原创整理版，不是外部原始主题镜像 |
+| Obsidian Cupertino | ✅ | ✅ | source-original | 已收录上游 `theme.css` / `LICENSE.txt` / `manifest.json`，来源 `aaaaalexis/obsidian-cupertino`（MIT） |
 
 结论：这部分当前是“风格整理包”，**不是**“外部主题源文件全集”。
 
@@ -44,7 +45,8 @@
 ### 推荐优先级 P1
 - 寻找 Apple 风格可合法收录的真实上游开源主题源文件
 - 满足条件后新增到独立目录，并在 README / SOURCES 中更新为 `source-original`
-- 当前已发现候选：`avenir-white.css`（Apple-adjacent），但暂时受阻于许可不明；详见 `themes/apple-platform/CANDIDATES.md`
+- 当前已正式补齐：`aaaaalexis/obsidian-cupertino` 的上游源文件（MIT）
+- 当前仍有候选：`avenir-white.css`（Apple-adjacent），但暂时受阻于许可不明；详见 `themes/apple-platform/CANDIDATES.md`
 
 ### 推荐优先级 P2
 - 为每个主题补充许可证说明链接

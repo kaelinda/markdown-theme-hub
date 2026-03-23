@@ -56,6 +56,7 @@
 | Apple Notes Light | [apple-notes-light.css](apple-notes-light.css) | ⭐⭐⭐⭐⭐ | Apple HIG 配色启发 |
 | Cupertino Clean | [cupertino-clean.css](cupertino-clean.css) | ⭐⭐⭐⭐ | Apple 官网 / Cupertino 风格启发 |
 | Apple Notes Dark | [apple-notes-dark.css](apple-notes-dark.css) | ⭐⭐⭐ | Apple HIG 暗色配色启发 |
+| Obsidian Cupertino (upstream) | [obsidian-cupertino/theme.css](obsidian-cupertino/theme.css) | - | `aaaaalexis/obsidian-cupertino` 上游源文件（MIT） |
 | Palette Tokens | [palettes.json](palettes.json) | - | Apple system color token 汇总 |
 
 ---
@@ -65,7 +66,9 @@
 - Apple Human Interface Guidelines / Color
 - Apple system typography stack：`-apple-system`, `SF Pro Text`, `SF Mono` 等 Web 安全回退
 
-> 说明：本目录资源为 **Apple 风格启发的原创/整理版 CSS**，不是 Apple 官方发布主题。
+> 说明：本目录目前同时包含两类资源：
+> - 顶层 `apple-notes-*` / `cupertino-clean.css`：**Apple 风格启发的原创/整理版 CSS**
+> - `obsidian-cupertino/`：**已核验许可证后正式收录的上游主题源文件**（MIT）
 
 ---
 
