@@ -110,11 +110,11 @@ themes/content-platform/
 | 场景 | 推荐主题 |
 |------|----------|
 | 公众号文章 | typo.css + smartisan.css |
-| 技术博客 | github-light.css / water.css |
+| 技术博客 | github-light.css / water.css / autumnus.css |
 | 夜间阅读 | github-dark.css / smartisan-dark.css |
-| 中文文档 | typo.css |
-| 独立博客 / 长文阅读 | sakura.css / water.css |
-| Typora 长文写作 / 发布前预览 | notion-light-enhanced.css |
+| 中文文档 | typo.css / autumnus.css |
+| 独立博客 / 长文阅读 | sakura.css / water.css / notes-light.css |
+| Typora 长文写作 / 发布前预览 | notion-light-enhanced.css / autumnus.css / notes-light.css |
 
 ---
 

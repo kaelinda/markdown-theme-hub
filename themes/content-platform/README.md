@@ -53,7 +53,9 @@
 
 补充说明：本轮筛选记录见 [CANDIDATES.md](CANDIDATES.md)。
 
-> 如果你的工作流是“先在 Typora 写，再导出到公众号 / 博客”，本轮新增推荐的 Typora 预览主题是 [`../typora/notion-light-enhanced.css`](../typora/notion-light-enhanced.css)：正文区更克制，适合长文写作时预览最终发布质感。
+> 如果你的工作流是“先在 Typora 写，再导出到公众号 / 博客”，当前最推荐的 Typora 预览主题仍是 [`../typora/notion-light-enhanced.css`](../typora/notion-light-enhanced.css)：正文区更克制，适合长文写作时预览最终发布质感。
+>
+> 如果你更偏中文技术文章 / 长篇教程，建议同时对比 [`../typora/autumnus.css`](../typora/autumnus.css) 与 [`../apple-platform/typora-notes-theme/notes-light-theme/notes-light.css`](../apple-platform/typora-notes-theme/notes-light-theme/notes-light.css)：前者更像中文写作主题，后者段落密度与列表、引用、代码块都更接近“克制出版风”。
 
 ## 📦 已收录主题
 

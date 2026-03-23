@@ -77,4 +77,5 @@
 - 新增正式收录 `adrian-fuertes/typora-notion-theme` 的 `notion-light-enhanced.css`：MIT、真实上游 CSS、单文件可 vendoring，正文阅读区克制，适合 Typora 中做博客长文 / 发布前预览
 - `noatpad/typora-theme-ursine`：视觉方向合适，但仓库已切到 Sass/Gulp 开发流，README 明确说明 repo 不再直接保存 CSS，主要通过 release zip 分发，因此不作为“仓库内真实上游 CSS 源文件”正式收录
 - `jhildenbiddle/typora-themeable`：MIT 且工程质量高，但更像可配置主题框架，不是明确面向公众号 / 博客长文的单一正文主题，本轮先不纳入内容平台优先清单
+- `khparry/typora-theme-mediumlike`：MIT、仓库内有 `mediumlike.css` / `mediumlike-dark.css` 真实上游 CSS，方向贴近 Medium；但默认绑定字体资产目录，仓库内未补齐独立字体许可说明，且中文长文 / 技术文章适配收益不明显，本轮续查后仍不正式收录
 - `doocs/md` / `mdnice/markdown-nice` / `Markdown-to-Wechat-project`：更偏编辑器或转换工具；主题资产不是稳定的单体上游 CSS，或许可/资产边界不适合作为本仓库的直接 vendoring 对象

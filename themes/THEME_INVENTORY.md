@@ -25,8 +25,9 @@
 | water.css | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，通用内容页/博客正文取向 |
 | normalize.css | ✅ | ✅ | source-original | 已收录 |
 | Typora Notion Light Enhanced | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，真实上游单文件 CSS，适合 Typora 长文写作 / 博客正文预览 |
+| Typora Theme Mediumlike | ✅ | ❌ | missing-upstream | 2026-03-23 round 2 续查命中：MIT、仓库内有真实上游 CSS，但默认依赖字体资产目录且中文长文收益一般，暂不正式收录 |
 
-结论：这部分已从“公众号样式”扩展到“公众号 + 通用长文阅读 + 独立博客正文 + Typora 发布前预览”，新增的 `Typora Notion Light Enhanced` 让仓库在“写作阶段预览长文成品感”这条链路上更完整。
+结论：这部分已从“公众号样式”扩展到“公众号 + 通用长文阅读 + 独立博客正文 + Typora 发布前预览”，新增的 `Typora Notion Light Enhanced` 让仓库在“写作阶段预览长文成品感”这条链路上更完整；而 `Typora Theme Mediumlike` 说明“简洁出版风”方向有候选，但要真正入库仍需同时满足字体许可与中文阅读适配。
 
 ---
 

@@ -60,6 +60,22 @@
   - 许可不明
   - 资源不是单体 CSS，而是模板 bundle / 应用主题包
   - 常混入字体、图片、运行时结构依赖，难以干净 vendoring
+- 本轮具体排除：
+  - `khparry/typora-theme-mediumlike`：MIT，仓库内确有 `mediumlike.css` / `mediumlike-dark.css` 真实上游文件，方向也贴近 Medium 长文写作；但主题默认强绑定仓库内字体资产（`Lato` / `Source Serif Pro` TTF），仓库未单独补充字体许可说明，且整体偏英文 Medium 质感，对中文长文 / 技术文章收益不如现有 `notion-light-enhanced.css`、`autumnus.css` 稳定，因此本轮先记为候选，不正式 vendoring
+
+## 本轮续查结论（2026-03-23 / round 2）
+
+### 命中但未正式收录
+1. `khparry/typora-theme-mediumlike`
+   - 优点：MIT、真实上游 CSS、Medium 风格明确、适合作为“简洁出版风” Typora 预览候选
+   - 未收录原因：
+     - 依赖字体文件目录，CSS-only 收录后会出现资源缺口
+     - 字体资产许可链未在仓库内单独说明，不如当前已收录主题清晰
+     - 更偏英文长文视觉，不是中文技术文章 / 公众号预览的最优解
+
+### 本轮没有新增正式可收录主题
+- 结论：**无新增正式收录**。
+- 原因：新命中的 Medium-like 候选虽然接近目标，但在字体资产许可与中文适配上没有超过现有方案，暂不值得拉高仓库维护成本。
 
 ## 当前建议
 
