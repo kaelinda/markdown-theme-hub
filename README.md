@@ -69,6 +69,24 @@ themes/content-platform/
 
 详见 [公众号主题安装方案](themes/content-platform/README.md)
 
+### Apple 风格主题 ⭐新增
+
+| 主题 | 文件 | 推荐度 | 适用场景 |
+|------|------|--------|----------|
+| **Apple Notes Light** | [apple-notes-light.css](themes/apple-platform/apple-notes-light.css) | ⭐⭐⭐⭐⭐ | 公众号长文、知识内容、产品文档 |
+| **Cupertino Clean** | [cupertino-clean.css](themes/apple-platform/cupertino-clean.css) | ⭐⭐⭐⭐ | 品牌文章、发布稿、视觉型内容 |
+| **Apple Notes Dark** | [apple-notes-dark.css](themes/apple-platform/apple-notes-dark.css) | ⭐⭐⭐ | 夜间阅读、站外网页 |
+
+**我的推荐**：`apple-notes-light.css`
+
+**为什么推荐**：最稳、最耐读、最不挑平台，最接近 Apple Notes 的克制高级感。
+
+**为什么不首推其他两个**：
+- `cupertino-clean.css` 视觉更强，适合品牌稿，但不如 Notes 风格耐读
+- `apple-notes-dark.css` 更适合站外网页，不是内容平台主流场景
+
+详见 [Apple 风格主题方案](themes/apple-platform/README.md)
+
 ---
 
 ## 🎨 快速推荐

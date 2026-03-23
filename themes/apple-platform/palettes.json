@@ -1,0 +1,42 @@
+{
+  "name": "Apple-inspired content themes",
+  "source": {
+    "apple_hig_color": "https://developer.apple.com/design/human-interface-guidelines/color",
+    "notes": "Colors are Apple-inspired system palette values and typography stack approximations for web content themes."
+  },
+  "recommended": "apple-notes-light.css",
+  "themes": [
+    {
+      "id": "apple-notes-light",
+      "file": "apple-notes-light.css",
+      "style": "Apple Notes / clean reading",
+      "recommended_for": ["公众号长文", "知识卡片", "产品文档"],
+      "why_recommended": ["最稳", "中文可读性高", "最接近 Apple Notes 阅读感"]
+    },
+    {
+      "id": "cupertino-clean",
+      "file": "cupertino-clean.css",
+      "style": "Apple marketing / glassy editorial",
+      "recommended_for": ["品牌文章", "视觉型内容", "公告页"]
+    },
+    {
+      "id": "apple-notes-dark",
+      "file": "apple-notes-dark.css",
+      "style": "Apple dark reading",
+      "recommended_for": ["夜间阅读", "技术内容"]
+    }
+  ],
+  "tokens": {
+    "blue": "#007AFF",
+    "green": "#34C759",
+    "indigo": "#5856D6",
+    "orange": "#FF9500",
+    "pink": "#FF2D55",
+    "purple": "#AF52DE",
+    "red": "#FF3B30",
+    "teal": "#5AC8FA",
+    "yellow": "#FFCC00",
+    "label": "#1D1D1F",
+    "secondaryLabel": "#6E6E73"
+  }
+}
