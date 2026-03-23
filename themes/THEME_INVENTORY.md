@@ -44,6 +44,7 @@
 ### 推荐优先级 P1
 - 寻找 Apple 风格可合法收录的真实上游开源主题源文件
 - 满足条件后新增到独立目录，并在 README / SOURCES 中更新为 `source-original`
+- 当前已发现候选：`avenir-white.css`（Apple-adjacent），但暂时受阻于许可不明；详见 `themes/apple-platform/CANDIDATES.md`
 
 ### 推荐优先级 P2
 - 为每个主题补充许可证说明链接
