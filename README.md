@@ -53,22 +53,21 @@ themes/content-platform/
 | **Lapis** | [lapis.css](themes/typora/lapis.css) | 💙 清爽蓝色调 | [YiNNx/typora-theme-lapis](https://github.com/YiNNx/typora-theme-lapis) |
 | **Autumnus** | [autumnus.css](themes/typora/autumnus.css) | 🍂 中文优化 | [Soanguy/typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus) |
 
-### 公众号/内容平台主题 ⭐推荐
+### 公众号/内容平台主题 ⭐用户选择
 
 | 主题 | 文件 | 推荐度 | 适用场景 |
 |------|------|--------|----------|
-| **Typo** | [typo.css](themes/content-platform/typo.css) | ⭐⭐⭐⭐⭐ | 中文排版、公众号文章 |
-| **锤子便签** | [smartisan.css](themes/content-platform/smartisan.css) | ⭐⭐⭐⭐ | 长文阅读、温暖风格 |
+| **锤子便签** | [smartisan.css](themes/content-platform/smartisan.css) | ⭐⭐⭐⭐⭐ | 长文阅读、温暖风格 |
+| **Typo** | [typo.css](themes/content-platform/typo.css) | ⭐⭐⭐⭐ | 中文排版、公众号文章 |
 | **锤子便签暗色** | [smartisan-dark.css](themes/content-platform/smartisan-dark.css) | ⭐⭐⭐⭐ | 夜间阅读 |
-| **GitHub Light** | [github-light.css](themes/content-platform/github-light.css) | ⭐⭐⭐⭐ | 技术博客、开发者文档 |
-| **GitHub Dark** | [github-dark.css](themes/content-platform/github-dark.css) | ⭐⭐⭐⭐ | 暗色主题、夜间阅读 |
+| **GitHub Light** | [github-light.css](themes/content-platform/github-light.css) | ⭐⭐⭐ | 技术博客、开发者文档 |
+| **GitHub Dark** | [github-dark.css](themes/content-platform/github-dark.css) | ⭐⭐⭐ | 暗色主题、夜间阅读 |
 
-**推荐理由**：
-- `typo.css` - 专为中文排版优化，轻量（7.6KB），适合公众号
-- `smartisan.css` - 锤子便签经典风格，温暖舒适
-- `github-*.css` - 开发者熟悉，代码高亮友好
+**用户选择**：锤子便签风格（简洁优雅，移动端友好）
 
-详见 [内容平台配色方案](themes/content-platform/README.md)
+**推荐安装方式**：[mdnice 一键导入](themes/content-platform/INSTALL.md)
+
+详见 [公众号主题安装方案](themes/content-platform/README.md)
 
 ---
 
