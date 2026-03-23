@@ -71,11 +71,11 @@ themes/content-platform/
 
 ### Apple 风格主题 ⭐新增
 
-| 主题 | 文件 | 推荐度 | 适用场景 |
-|------|------|--------|----------|
-| **Apple Notes Light** | [apple-notes-light.css](themes/apple-platform/apple-notes-light.css) | ⭐⭐⭐⭐⭐ | 公众号长文、知识内容、产品文档 |
-| **Cupertino Clean** | [cupertino-clean.css](themes/apple-platform/cupertino-clean.css) | ⭐⭐⭐⭐ | 品牌文章、发布稿、视觉型内容 |
-| **Apple Notes Dark** | [apple-notes-dark.css](themes/apple-platform/apple-notes-dark.css) | ⭐⭐⭐ | 夜间阅读、站外网页 |
+| 主题 | 文件 | 类型 | 推荐度 | 适用场景 |
+|------|------|------|--------|----------|
+| **Apple Notes Light** | [apple-notes-light.css](themes/apple-platform/apple-notes-light.css) | inspired-original | ⭐⭐⭐⭐⭐ | 公众号长文、知识内容、产品文档 |
+| **Cupertino Clean** | [cupertino-clean.css](themes/apple-platform/cupertino-clean.css) | inspired-original | ⭐⭐⭐⭐ | 品牌文章、发布稿、视觉型内容 |
+| **Apple Notes Dark** | [apple-notes-dark.css](themes/apple-platform/apple-notes-dark.css) | inspired-original | ⭐⭐⭐ | 夜间阅读、站外网页 |
 
 **我的推荐**：`apple-notes-light.css`
 
@@ -84,6 +84,8 @@ themes/content-platform/
 **为什么不首推其他两个**：
 - `cupertino-clean.css` 视觉更强，适合品牌稿，但不如 Notes 风格耐读
 - `apple-notes-dark.css` 更适合站外网页，不是内容平台主流场景
+
+**重要说明**：这三套当前是 **Apple 风格启发的整理版**，不是外部开源主题源文件的原样镜像。详见 [themes/apple-platform/UPSTREAM.md](themes/apple-platform/UPSTREAM.md) 与 [themes/SOURCES.md](themes/SOURCES.md)。
 
 详见 [Apple 风格主题方案](themes/apple-platform/README.md)
 
