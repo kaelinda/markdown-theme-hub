@@ -131,10 +131,62 @@ Apple / 内容平台方向目前已经找到并正式收录了两组“许可清
 
 - **优点**：方向准确、许可清晰、确实接近通用写作工具风格
 - **问题**：`obsidian.css` 内含大段嵌入式字体数据，且整体仍更偏 Obsidian 应用 UI 变量，不是纯内容页 CSS
-- **状态**：`candidate-not-yet-collected`
+- **状态**：`blocked-embedded-font-and-obsidian-runtime`
+
+### 本轮补充核验（2026-03-23）
+
+对上游 `obsidian.css` 做了更细的结构判断，发现：
+
+- 文件内存在 **4 段 `@font-face` + `data:font/...;base64,...`** 的嵌入式字体数据
+- 同时存在大量 Obsidian / CodeMirror / HyperMD 运行环境选择器与变量依赖，例如：
+  - `.workspace-*`
+  - `.cm-s-obsidian`
+  - `.HyperMD-*`
+  - `.markdown-source-view`
+  - `.view-content`
+  - `var(--interactive-accent)` / `var(--background-primary)` 等主题变量
+- 仅粗略检索就能看到：
+  - `.workspace` 相关选择器 **61** 处
+  - `.cm-` 相关选择器 **86** 处
+  - `var(--...)` 变量引用 **75** 处
 
 ### 暂不正式收录原因
 
 1. 仍需把“主题 CSS 许可”与“嵌入字体资产许可”拆开再核
-2. 整体更偏 Obsidian 运行环境，不如 `typora-notes-theme` 那样直接对应内容编辑体验
-3. 若后续要收录，建议先做一次“CSS / 字体 / UI 变量”拆分判断，再决定是否仅镜像主题主 CSS
+2. 即便只看 CSS 主文件，它也明显依赖 Obsidian UI / 编辑器运行环境，不符合本轮“不要把明显依赖 Obsidian UI 变量/运行环境的主题作为正式收录重点”的约束
+3. 若后续要收录，必须先证明可以安全拆出“纯内容区样式子集”；否则继续维持候选状态，不做正式 vendoring
+
+---
+
+## 候选 5：Craft / 通用内容页方向增量搜索结论
+
+### 本轮搜索范围
+
+仅围绕以下关键词做了定向排查：
+
+- `Craft markdown theme css`
+- `Craft documentation theme css markdown`
+- `iA Writer theme css markdown`
+- `Apple-adjacent markdown css avenir`
+- `Typora Apple Notes theme css license`
+
+### 当前判断
+
+- **未找到新的、可直接正式收录的 Craft / 通用内容页上游 CSS 主题**
+- 搜到的 `Craft` 相关结果大多是：
+  - 文档站 / 站点主题（不是独立 Markdown 内容样式）
+  - 编辑器或完整应用仓库（不是可单独 vendoring 的主题 CSS）
+  - 风格接近但并未明确以 Craft / Apple Notes / iA Writer 为目标的通用排版样式
+- `avenir-white.css` 仍可作为 **Apple-adjacent 候选** 保留，但其上游仓库当前仍未见清晰 LICENSE，继续阻塞
+
+### 现阶段可执行策略
+
+1. **不为了凑数收录弱相关主题**：宁可留空，也不把“只是简洁”误判成 Craft / Apple Notes 邻近
+2. 后续优先搜索：
+   - `"Craft" markdown css theme MIT`
+   - `"iA Writer" markdown theme MIT css`
+   - `"Apple Notes" typora theme apache`
+   - `site:github.com markdown css Avenir license`
+3. 如果后续仍找不到“纯内容页”的真实上游主题，就继续明确区分：
+   - 顶层 `apple-notes-*` / `cupertino-clean.css` 负责“通用内容平台可直接用”
+   - `source-original` 目录只收录真正许可清晰、来源清晰、边界清晰的上游 CSS 源文件
