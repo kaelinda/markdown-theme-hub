@@ -51,6 +51,8 @@
 
 ---
 
+补充说明：本轮筛选记录见 [CANDIDATES.md](CANDIDATES.md)。
+
 ## 📦 已收录主题
 
 | 主题 | 大小 | 风格 | 推荐度 | 来源 |
@@ -61,6 +63,8 @@
 | **github-light.css** | 22KB | GitHub 亮色 | ⭐⭐ | [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) |
 | **github-dark.css** | 22KB | GitHub 暗色 | ⭐⭐ | [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) |
 | **normalize.css** | 6.1KB | 基础重置样式 | ⭐⭐⭐ | [necolas/normalize.css](https://github.com/necolas/normalize.css) |
+| **sakura.css** | 4.0KB | 极简长文阅读 | ⭐⭐⭐⭐ | [oxalorg/sakura](https://github.com/oxalorg/sakura) |
+| **water.css** | 3.4KB | 通用内容页 / 博客正文 | ⭐⭐⭐⭐ | [kognise/water.css](https://github.com/kognise/water.css) |
 
 ---
 
@@ -116,7 +120,12 @@
    - 专为中文设计
    - 轻量、稳定、兼容性好
 
-3. **暗色主题适合公众号吗？**
+3. **这轮为什么新增 sakura.css / water.css？**
+   - 都是可直接 vendoring 的真实上游 CSS
+   - MIT 许可清晰，依赖极低
+   - 更适合独立博客、长文阅读、内容页，不强依赖编辑器运行时
+
+4. **暗色主题适合公众号吗？**
    - 一般不适合，公众号主流是亮色
    - 特殊场景（技术文章）可以考虑
 

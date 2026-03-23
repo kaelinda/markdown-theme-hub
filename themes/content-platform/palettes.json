@@ -137,13 +137,72 @@
         "HTML5 支持"
       ],
       "suitable": ["所有项目的样式基础"]
+    },
+    {
+      "id": "sakura",
+      "name": "Sakura",
+      "file": "sakura.css",
+      "source": "https://github.com/oxalorg/sakura",
+      "license": "MIT",
+      "author": "oxalorg",
+      "description": "极简 classless CSS，适合独立博客与长文阅读",
+      "features": [
+        "极简长文阅读",
+        "低依赖",
+        "系统字体栈",
+        "单文件可直接使用"
+      ],
+      "colors": {
+        "background": "#f9f9f9",
+        "text": "#4a4a4a",
+        "link": "#1f6feb",
+        "heading": "#222222"
+      },
+      "fontSize": {
+        "base": "18px",
+        "h1": "2em",
+        "h2": "1.8em",
+        "h3": "1.6em"
+      },
+      "lineHeight": 1.618,
+      "suitable": ["独立博客", "长文阅读", "内容发布页"]
+    },
+    {
+      "id": "water",
+      "name": "Water Light",
+      "file": "water.css",
+      "source": "https://github.com/kognise/water.css",
+      "license": "MIT",
+      "author": "Kognise",
+      "description": "通用内容页 classless CSS，适合博客正文与轻内容站点",
+      "features": [
+        "通用内容页",
+        "低依赖",
+        "响应式",
+        "表格/引用开箱即用"
+      ],
+      "colors": {
+        "background": "#ffffff",
+        "text": "#363636",
+        "link": "#0076d1",
+        "heading": "#000000"
+      },
+      "fontSize": {
+        "base": "16px",
+        "h1": "2.2em",
+        "h2": "1.8em",
+        "h3": "1.4em"
+      },
+      "lineHeight": 1.4,
+      "suitable": ["博客正文", "通用内容页", "技术文章"]
     }
   ],
   "recommendations": {
     "公众号文章": ["normalize.css", "smartisan.css"],
-    "技术博客": ["normalize.css", "github-light.css"],
+    "技术博客": ["normalize.css", "github-light.css", "water.css"],
     "夜间阅读": ["normalize.css", "github-dark.css"],
-    "中文文档": ["normalize.css", "typo.css"]
+    "中文文档": ["normalize.css", "typo.css"],
+    "独立博客/长文阅读": ["sakura.css", "water.css"]
   },
   "typography": {
     "fontFamily": {

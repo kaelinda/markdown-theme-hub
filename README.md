@@ -65,6 +65,8 @@ themes/content-platform/
 | **锤子便签暗色** | [smartisan-dark.css](themes/content-platform/smartisan-dark.css) | ⭐⭐⭐⭐ | 夜间阅读 |
 | **GitHub Light** | [github-light.css](themes/content-platform/github-light.css) | ⭐⭐⭐ | 技术博客、开发者文档 |
 | **GitHub Dark** | [github-dark.css](themes/content-platform/github-dark.css) | ⭐⭐⭐ | 暗色主题、夜间阅读 |
+| **Sakura** | [sakura.css](themes/content-platform/sakura.css) | ⭐⭐⭐⭐ | 极简长文、独立博客、纯阅读页 |
+| **Water Light** | [water.css](themes/content-platform/water.css) | ⭐⭐⭐⭐ | 通用内容页、博客正文、低配置站点 |
 
 **用户选择**：锤子便签风格（简洁优雅，移动端友好）
 
@@ -107,9 +109,10 @@ themes/content-platform/
 | 场景 | 推荐主题 |
 |------|----------|
 | 公众号文章 | typo.css + smartisan.css |
-| 技术博客 | github-light.css |
+| 技术博客 | github-light.css / water.css |
 | 夜间阅读 | github-dark.css / smartisan-dark.css |
 | 中文文档 | typo.css |
+| 独立博客 / 长文阅读 | sakura.css / water.css |
 
 ---
 

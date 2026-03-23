@@ -19,9 +19,14 @@
 | `content-platform/smartisan-dark.css` | source-original | https://github.com/nihaojob/markdown-css-smartisan |
 | `content-platform/github-light.css` | source-original | https://github.com/sindresorhus/github-markdown-css |
 | `content-platform/github-dark.css` | source-original | https://github.com/sindresorhus/github-markdown-css |
+| `content-platform/sakura.css` | source-original | https://github.com/oxalorg/sakura |
+| `content-platform/LICENSE.sakura.txt` | source-original | https://github.com/oxalorg/sakura (`LICENSE.txt`, MIT) |
+| `content-platform/water.css` | source-original | https://github.com/kognise/water.css (`dist/light.css`, MIT) |
+| `content-platform/LICENSE.water.md` | source-original | https://github.com/kognise/water.css (`LICENSE.md`, MIT) |
 | `content-platform/normalize.css` | source-original | 上游基础重置文件（当前仓库已收录） |
 | `content-platform/INSTALL.md` | source-derived | 仓库内整理文档 |
 | `content-platform/README.md` | source-derived | 仓库内整理文档 |
+| `content-platform/CANDIDATES.md` | source-derived | 仓库内筛选与排除记录 |
 | `content-platform/palettes.json` | source-derived | 仓库内整理元数据 |
 
 ---
