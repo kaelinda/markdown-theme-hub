@@ -190,3 +190,66 @@ Apple / 内容平台方向目前已经找到并正式收录了两组“许可清
 3. 如果后续仍找不到“纯内容页”的真实上游主题，就继续明确区分：
    - 顶层 `apple-notes-*` / `cupertino-clean.css` 负责“通用内容平台可直接用”
    - `source-original` 目录只收录真正许可清晰、来源清晰、边界清晰的上游 CSS 源文件
+
+---
+
+## 候选 6：2026-03-23 Apple / Craft / iA Writer 高精度纯内容页检索补记
+
+### 本轮硬约束
+
+- 只接受 **纯内容页 / 阅读区导向** 的 CSS
+- 不接受编辑器 UI 皮肤、Obsidian / CodeMirror / 应用运行时强依赖主题作为正式收录
+- 许可必须清晰；若字体 / 图片 / 二进制资产边界不清，宁可只记为候选，不正式 vendoring
+
+### 本轮实际检索关键词
+
+- `apple notes markdown css`
+- `craft markdown theme css`
+- `ia writer markdown css`
+- `typora apple notes theme license`
+- `minimal reading markdown css mit apache`
+
+### 本轮命中的关键候选
+
+1. **`7368697661/Origami`**
+   - 来源：GitHub / DuckDuckGo / 仓库 README
+   - 许可证：`MIT`（已核到上游 LICENSE）
+   - 命中原因：搜索 `craft markdown theme css` 时出现，视觉气质偏写作 / 阅读
+   - 排除原因：README 明确是 **Obsidian theme**；并绑定 Style Settings、Obsidian 字体与环境类，不是独立“纯内容页 CSS”
+   - 结论：**排除，不正式收录**
+
+2. **`iainc/iA-Writer-Templates`**
+   - 来源：DuckDuckGo / GitHub README
+   - 命中原因：搜索 `ia writer markdown css` 时，最接近官方 / 上游的 CSS 体系
+   - 核验结果：这是 **iA Writer 导出 / 打印模板 bundle 体系**，核心交付物是 `.iatemplate`（HTML + CSS + plist + 运行时数据属性），不是可直接 vendoring 的单体“Markdown 阅读区主题 CSS”
+   - 许可证：本轮未核到仓库根 LICENSE，许可状态不足以支持正式收录
+   - 结论：**排除，不正式收录**
+
+3. **`gtg2619/typora-theme` / `typora-notes-dark-theme` 相关结果**
+   - 命中原因：搜索 `typora apple notes theme license`
+   - 排除原因：要么是旧 Typora 编辑器主题、要么许可链条不如 `shakex/typora-notes-theme` 清晰；且方向仍偏 Typora 主题而非纯网页内容区 CSS
+   - 结论：**不新增收录**
+
+4. **`jasonm23/markdown-css-themes` / `markdown-styles` / `github-markdown-css`**
+   - 命中原因：搜索 `minimal reading markdown css mit apache`
+   - 排除原因：这些是通用 Markdown 样式库，虽然“纯内容页”属性较强，但并不明显指向 Apple Notes / Craft / iA Writer 阅读体验，属于过宽泛结果；为避免误收，本轮不纳入 Apple 方向正式补齐
+   - 结论：**记录但排除**
+
+5. **Apple Notes 相关新闻 / 工具结果**
+   - 如 Apple Notes Markdown 支持文章、notes-exporter、NotesCmdr 等
+   - 排除原因：不是主题源文件仓库，不满足“真实上游 CSS 源文件”要求
+   - 结论：**排除**
+
+### 本轮结论
+
+- **没有新增正式可收录主题**
+- 原因不是“完全没候选”，而是：
+  1. Apple / Craft / iA Writer 方向的公开主题本来就稀缺
+  2. 搜到的结果大多落在 **编辑器皮肤 / Obsidian 主题 / 应用模板系统**
+  3. 真正可单独 vendoring 的“纯内容页 CSS”仍然主要集中在更泛化的 Markdown 样式库，而不是明确 Apple / Craft / iA Writer 风格上游
+
+### 当前最值得继续追的方向
+
+1. **iA Writer 模板生态里可单独拆出的、许可清晰的 `style.css` 示例模板**
+2. **Avenir / Apple-adjacent 纯阅读 CSS 的上游 LICENSE 核验**（若许可补齐，仍可能成为 Apple 邻近可收录源）
+3. **Craft 邻近但不依赖编辑器运行时的静态导出 / 博客主题仓库**，优先看是否有单独 `style.css` 且仓库根 LICENSE 清晰

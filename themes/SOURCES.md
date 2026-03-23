@@ -64,4 +64,4 @@
 
 本轮补充结论（2026-03-23）：
 - `obsidian_ia` 虽为 MIT，但当前上游主 CSS 含嵌入字体数据，且明显依赖 Obsidian / CodeMirror / HyperMD 运行环境，因此继续保留为候选，不正式 vendoring
-- Craft 邻近方向本轮未发现新的、许可与资产边界都清晰的可收录上游 CSS；后续应继续按“纯内容样式 > 编辑器 UI 皮肤”的原则收窄搜索
+- Craft 邻近方向在 2026-03-23 的 Apple / Craft / iA Writer 高精度复检中仍未发现新的、许可与资产边界都清晰的可收录上游 CSS；新增命中主要是 `7368697661/Origami`（MIT，但为 Obsidian 主题）与 `iainc/iA-Writer-Templates`（模板 bundle，不是可直接 vendoring 的单体阅读区 CSS），因此继续按“纯内容样式 > 编辑器 UI 皮肤”的原则收窄搜索

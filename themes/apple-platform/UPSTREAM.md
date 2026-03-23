@@ -47,4 +47,4 @@
 
 当前已正式收录两个许可清晰的外部上游方向：`obsidian-cupertino/theme.css`（MIT）与 `typora-notes-theme` 的 light/dark CSS（Apache-2.0，CSS-only）。
 
-仍有一个较接近 Apple 气质的候选：`avenir-white.css`，但由于上游许可未明确，暂不正式收录；另有 `obsidian_ia` 需继续拆分字体与 UI 依赖后再判断。 
+仍有一个较接近 Apple 气质的候选：`avenir-white.css`，但由于上游许可未明确，暂不正式收录；另有 `obsidian_ia` 需继续拆分字体与 UI 依赖后再判断。2026-03-23 新一轮仅限 Apple / Craft / iA Writer / minimal-reading 的高精度检索未新增正式可收录主题，详见 `CANDIDATES.md`。

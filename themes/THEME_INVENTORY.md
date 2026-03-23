@@ -38,7 +38,7 @@
 | Typora Notes Theme (Light) | ✅ | ✅ | source-original | 已收录 `shakex/typora-notes-theme` 上游 `notes-light.css`（Apache-2.0，CSS-only） |
 | Typora Notes Theme (Dark) | ✅ | ✅ | source-original | 已收录 `shakex/typora-notes-theme` 上游 `notes-dark.css`（Apache-2.0，CSS-only） |
 | Obsidian iA | ✅ | ❌ | missing-upstream | 候选存在且 MIT，但本轮核验确认含嵌入字体与大量 Obsidian UI / CodeMirror 依赖，暂不正式收录 |
-| Craft / 通用内容页邻近主题 | ✅ | ❌ | missing-upstream | 本轮继续定向搜索，但未找到新的、许可清晰且可直接 vendoring 的真实上游 CSS |
+| Craft / 通用内容页邻近主题 | ✅ | ❌ | missing-upstream | 2026-03-23 新一轮仅限 Apple/Craft/iA 纯内容页 CSS 检索后，仍未找到新的、许可清晰且可直接 vendoring 的真实上游 CSS |
 
 结论：这部分已从“纯整理包”推进到“整理包 + 多个真实上游源文件”，但距离“Apple / 通用内容平台向完整补齐”仍有差距；当前短板已经从“完全没找到”转成“纯内容页上游源稀缺，且 Craft / iA 方向容易落到编辑器运行时主题”。
 
