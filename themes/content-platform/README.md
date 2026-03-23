@@ -64,6 +64,9 @@
 | **typo.css** | 7.6KB | 中文排版优化 | ⭐⭐⭐⭐⭐ | [sofish/typo.css](https://github.com/sofish/typo.css) |
 | **smartisan.css** | 23KB | 锤子便签风格 | ⭐⭐⭐⭐ | [nihaojob/markdown-css-smartisan](https://github.com/nihaojob/markdown-css-smartisan) |
 | **smartisan-dark.css** | 23KB | 锤子便签暗色 | ⭐⭐⭐ | [nihaojob/markdown-css-smartisan](https://github.com/nihaojob/markdown-css-smartisan) |
+| **simple.css** | 14KB | 极简 classless | ⭐⭐⭐⭐⭐ | [kevquirk/simple.css](https://github.com/kevquirk/simple.css) |
+| **tufte.css** | 9.4KB | 学术论文风格 | ⭐⭐⭐⭐⭐ | [edwardtufte/tufte-css](https://github.com/edwardtufte/tufte-css) |
+| **latex.css** | 16KB | LaTeX 学术风格 | ⭐⭐⭐⭐ | [vincentdoerig/latex-css](https://github.com/vincentdoerig/latex-css) |
 | **github-light.css** | 22KB | GitHub 亮色 | ⭐⭐ | [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) |
 | **github-dark.css** | 22KB | GitHub 暗色 | ⭐⭐ | [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) |
 | **normalize.css** | 6.1KB | 基础重置样式 | ⭐⭐⭐ | [necolas/normalize.css](https://github.com/necolas/normalize.css) |

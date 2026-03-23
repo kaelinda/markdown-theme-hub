@@ -1,6 +1,6 @@
 # Theme Inventory
 
-> 本文件用于跟踪“提到过的主题”与“当前仓库收录状态”。
+> 本文件用于跟踪"提到过的主题"与"当前仓库收录状态"。
 
 ## 状态字段
 
@@ -25,9 +25,12 @@
 | water.css | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，通用内容页/博客正文取向 |
 | normalize.css | ✅ | ✅ | source-original | 已收录 |
 | Typora Notion Light Enhanced | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，真实上游单文件 CSS，适合 Typora 长文写作 / 博客正文预览 |
+| simple.css | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，classless CSS，无字体依赖，暗色模式支持，适合中文长文 / 技术文章 |
+| tufte.css | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，学术论文 / 技术文章专用，侧边注释，适合深度阅读 |
+| latex.css | ✅ | ✅ | source-original | 2026-03-23 新增，MIT，LaTeX 学术风格，classless CSS，适合技术博客 / 学术文章 |
 | Typora Theme Mediumlike | ✅ | ❌ | missing-upstream | 2026-03-23 round 2 续查命中：MIT、仓库内有真实上游 CSS，但默认依赖字体资产目录且中文长文收益一般，暂不正式收录 |
 
-结论：这部分已从“公众号样式”扩展到“公众号 + 通用长文阅读 + 独立博客正文 + Typora 发布前预览”，新增的 `Typora Notion Light Enhanced` 让仓库在“写作阶段预览长文成品感”这条链路上更完整；而 `Typora Theme Mediumlike` 说明“简洁出版风”方向有候选，但要真正入库仍需同时满足字体许可与中文阅读适配。
+结论：这部分已从"公众号样式"扩展到"公众号 + 通用长文阅读 + 独立博客正文 + Typora 发布前预览 + 学术论文 + 技术文章"，本轮新增 `simple.css`、`tufte.css`、`latex.css` 三套高质量主题，覆盖了中文长文阅读、技术文章/开发者博客、公众号/内容平台发布前预览三大场景的核心需求；而 `Typora Theme Mediumlike` 说明"简洁出版风"方向有候选，但要真正入库仍需同时满足字体许可与中文阅读适配。
 
 ---
 
@@ -44,7 +47,7 @@
 | Obsidian iA | ✅ | ❌ | missing-upstream | 候选存在且 MIT，但本轮核验确认含嵌入字体与大量 Obsidian UI / CodeMirror 依赖，暂不正式收录 |
 | Craft / 通用内容页邻近主题 | ✅ | ❌ | missing-upstream | 2026-03-23 新一轮仅限 Apple/Craft/iA 纯内容页 CSS 检索后，仍未找到新的、许可清晰且可直接 vendoring 的真实上游 CSS |
 
-结论：这部分已从“纯整理包”推进到“整理包 + 多个真实上游源文件”，但距离“Apple / 通用内容平台向完整补齐”仍有差距；当前短板已经从“完全没找到”转成“纯内容页上游源稀缺，且 Craft / iA 方向容易落到编辑器运行时主题”。
+结论：这部分已从"纯整理包"推进到"整理包 + 多个真实上游源文件"，但距离"Apple / 通用内容平台向完整补齐"仍有差距；当前短板已经从"完全没找到"转成"纯内容页上游源稀缺，且 Craft / iA 方向容易落到编辑器运行时主题"。
 
 ---
 
@@ -64,5 +67,5 @@
 
 ## 当前判断
 
-如果按“可用资源仓库”标准：当前仓库已经可用。  
-如果按“提到的主题尽量都要有原始源文件”标准：**Apple / 内容平台方向仍未完成，但已补齐一组更接近 Apple Notes 的真实上游 CSS 源文件。**
+如果按"可用资源仓库"标准：当前仓库已经可用。
+如果按"提到的主题尽量都要有原始源文件"标准：**Apple / 内容平台方向仍未完成，但已补齐一组更接近 Apple Notes 的真实上游 CSS 源文件。**

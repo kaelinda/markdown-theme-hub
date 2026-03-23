@@ -195,14 +195,103 @@
       },
       "lineHeight": 1.4,
       "suitable": ["博客正文", "通用内容页", "技术文章"]
+    },
+    {
+      "id": "simple",
+      "name": "Simple.css",
+      "file": "simple.css",
+      "source": "https://github.com/kevquirk/simple.css",
+      "license": "MIT",
+      "author": "kevquirk",
+      "description": "极简 classless CSS，无字体依赖，支持暗色模式，适合中文长文与技术文章",
+      "features": [
+        "无字体依赖",
+        "暗色模式支持",
+        "classless",
+        "系统字体栈",
+        "表格/代码块/引用样式成熟"
+      ],
+      "colors": {
+        "background": "#ffffff",
+        "text": "#212121",
+        "link": "#0d47a1",
+        "heading": "#212121"
+      },
+      "fontSize": {
+        "base": "1.15rem",
+        "h1": "2.5rem",
+        "h2": "2rem",
+        "h3": "1.5rem"
+      },
+      "lineHeight": 1.5,
+      "suitable": ["中文长文", "技术文章", "开发者博客", "独立博客"]
+    },
+    {
+      "id": "tufte",
+      "name": "Tufte CSS",
+      "file": "tufte.css",
+      "source": "https://github.com/edwardtufte/tufte-css",
+      "license": "MIT",
+      "author": "edwardtufte",
+      "description": "学术论文风格 CSS，侧边注释设计，适合深度阅读与技术文章",
+      "features": [
+        "学术论文风格",
+        "侧边注释",
+        "深度阅读优化",
+        "表格/代码块/引用成熟"
+      ],
+      "colors": {
+        "background": "#fffff8",
+        "text": "#111111",
+        "link": "#111111",
+        "heading": "#111111"
+      },
+      "fontSize": {
+        "base": "15px",
+        "h1": "3.2rem",
+        "h2": "2.2rem",
+        "h3": "1.7rem"
+      },
+      "lineHeight": 1.42,
+      "suitable": ["学术论文", "技术文章", "深度阅读", "开发者博客"]
+    },
+    {
+      "id": "latex",
+      "name": "LaTeX.css",
+      "file": "latex.css",
+      "source": "https://github.com/vincentdoerig/latex-css",
+      "license": "MIT",
+      "author": "vincentdoerig",
+      "description": "LaTeX 学术风格 classless CSS，适合技术博客与学术文章",
+      "features": [
+        "LaTeX 视觉风格",
+        "classless",
+        "学术排版",
+        "表格/代码块/引用成熟"
+      ],
+      "colors": {
+        "background": "#ffffff",
+        "text": "#000000",
+        "link": "#000000",
+        "heading": "#000000"
+      },
+      "fontSize": {
+        "base": "1rem",
+        "h1": "2rem",
+        "h2": "1.5rem",
+        "h3": "1.25rem"
+      },
+      "lineHeight": 1.618,
+      "suitable": ["学术文章", "技术博客", "LaTeX 风格", "深度阅读"]
     }
   ],
   "recommendations": {
-    "公众号文章": ["normalize.css", "smartisan.css"],
-    "技术博客": ["normalize.css", "github-light.css", "water.css", "../typora/autumnus.css"],
-    "夜间阅读": ["normalize.css", "github-dark.css"],
-    "中文文档": ["normalize.css", "typo.css", "../typora/autumnus.css"],
-    "独立博客/长文阅读": ["sakura.css", "water.css", "../apple-platform/typora-notes-theme/notes-light-theme/notes-light.css"],
+    "公众号文章": ["normalize.css", "smartisan.css", "simple.css"],
+    "技术博客": ["normalize.css", "github-light.css", "water.css", "simple.css", "tufte.css", "latex.css", "../typora/autumnus.css"],
+    "夜间阅读": ["normalize.css", "github-dark.css", "simple.css"],
+    "中文文档": ["normalize.css", "typo.css", "simple.css", "../typora/autumnus.css"],
+    "独立博客/长文阅读": ["simple.css", "sakura.css", "water.css", "tufte.css", "../apple-platform/typora-notes-theme/notes-light-theme/notes-light.css"],
+    "学术论文/深度阅读": ["tufte.css", "latex.css", "water.css"],
     "Typora长文写作/发布前预览": ["../typora/notion-light-enhanced.css", "../typora/autumnus.css", "../apple-platform/typora-notes-theme/notes-light-theme/notes-light.css"]
   },
   "typography": {

@@ -23,6 +23,12 @@
 | `content-platform/LICENSE.sakura.txt` | source-original | https://github.com/oxalorg/sakura (`LICENSE.txt`, MIT) |
 | `content-platform/water.css` | source-original | https://github.com/kognise/water.css (`dist/light.css`, MIT) |
 | `content-platform/LICENSE.water.md` | source-original | https://github.com/kognise/water.css (`LICENSE.md`, MIT) |
+| `content-platform/simple.css` | source-original | https://github.com/kevquirk/simple.css (`simple.css`, MIT) |
+| `content-platform/LICENSE.simple.txt` | source-original | https://github.com/kevquirk/simple.css (`LICENSE`, MIT) |
+| `content-platform/tufte.css` | source-original | https://github.com/edwardtufte/tufte-css (`tufte.css`, MIT) |
+| `content-platform/LICENSE.tufte.txt` | source-original | https://github.com/edwardtufte/tufte-css (`LICENSE`, MIT) |
+| `content-platform/latex.css` | source-original | https://github.com/vincentdoerig/latex-css (`style.css`, MIT) |
+| `content-platform/LICENSE.latex.txt` | source-original | https://github.com/vincentdoerig/latex-css (`LICENSE`, MIT) |
 | `content-platform/normalize.css` | source-original | 上游基础重置文件（当前仓库已收录） |
 | `content-platform/INSTALL.md` | source-derived | 仓库内整理文档 |
 | `content-platform/README.md` | source-derived | 仓库内整理文档 |

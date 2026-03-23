@@ -2,7 +2,48 @@
 
 > 本轮目标：优先补齐适合公众号 / 长文阅读 / 内容发布场景的真实上游 CSS。
 
-## 本轮正式收录
+## 本轮正式收录（2026-03-23 round 3）
+
+### 1) Simple.css
+- 仓库：<https://github.com/kevquirk/simple.css>
+- 收录文件：`simple.css`
+- 许可：MIT
+- Stars：4948
+- 收录理由：
+  - 真实上游单文件 CSS
+  - 无字体依赖，使用系统字体栈
+  - 支持暗色模式
+  - classless CSS，开箱即用
+  - 表格/代码块/引用样式成熟
+  - 适合中文长文和技术文章
+  - 低运行时依赖
+
+### 2) Tufte CSS
+- 仓库：<https://github.com/edwardtufte/tufte-css>
+- 收录文件：`tufte.css`
+- 许可：MIT
+- Stars：6449
+- 收录理由：
+  - 真实上游单文件 CSS
+  - 学术论文风格，侧边注释设计
+  - 非常适合技术文章和深度阅读
+  - 表格/代码块/引用样式成熟
+  - 经典设计，稳定可维护
+  - 注意：原仓库依赖 et-book 字体，但 CSS 本身可用，字体让用户自行决定
+
+### 3) LaTeX.css
+- 仓库：<https://github.com/vincentdoerig/latex-css>
+- 收录文件：`latex.css`（原 `style.css`）
+- 许可：MIT
+- Stars：3439
+- 收录理由：
+  - 真实上游单文件 CSS
+  - classless CSS
+  - LaTeX 学术风格，适合技术博客和学术文章
+  - 表格/代码块/引用样式成熟
+  - 注意：原仓库依赖 Latin Modern/Libertinus 字体，但 CSS 本身可用
+
+## 本轮正式收录（2026-03-23 round 1 & 2）
 
 ### 0) Typora Notion Light Enhanced
 - 仓库：<https://github.com/adrian-fuertes/typora-notion-theme>

@@ -63,6 +63,9 @@ themes/content-platform/
 |------|------|--------|----------|
 | **锤子便签** | [smartisan.css](themes/content-platform/smartisan.css) | ⭐⭐⭐⭐⭐ | 长文阅读、温暖风格 |
 | **Typo** | [typo.css](themes/content-platform/typo.css) | ⭐⭐⭐⭐ | 中文排版、公众号文章 |
+| **Simple.css** | [simple.css](themes/content-platform/simple.css) | ⭐⭐⭐⭐⭐ | 中文长文、技术文章、classless |
+| **Tufte CSS** | [tufte.css](themes/content-platform/tufte.css) | ⭐⭐⭐⭐⭐ | 学术论文、技术文章、深度阅读 |
+| **LaTeX.css** | [latex.css](themes/content-platform/latex.css) | ⭐⭐⭐⭐ | 学术风格、技术博客、LaTeX 视觉 |
 | **锤子便签暗色** | [smartisan-dark.css](themes/content-platform/smartisan-dark.css) | ⭐⭐⭐⭐ | 夜间阅读 |
 | **GitHub Light** | [github-light.css](themes/content-platform/github-light.css) | ⭐⭐⭐ | 技术博客、开发者文档 |
 | **GitHub Dark** | [github-dark.css](themes/content-platform/github-dark.css) | ⭐⭐⭐ | 暗色主题、夜间阅读 |
@@ -109,11 +112,12 @@ themes/content-platform/
 
 | 场景 | 推荐主题 |
 |------|----------|
-| 公众号文章 | typo.css + smartisan.css |
-| 技术博客 | github-light.css / water.css / autumnus.css |
-| 夜间阅读 | github-dark.css / smartisan-dark.css |
-| 中文文档 | typo.css / autumnus.css |
-| 独立博客 / 长文阅读 | sakura.css / water.css / notes-light.css |
+| 公众号文章 | typo.css + smartisan.css + simple.css |
+| 技术博客 | github-light.css / simple.css / tufte.css / latex.css / autumnus.css |
+| 学术论文 / 深度阅读 | tufte.css / latex.css |
+| 夜间阅读 | github-dark.css / smartisan-dark.css / simple.css（暗色模式） |
+| 中文文档 | typo.css / simple.css / autumnus.css |
+| 独立博客 / 长文阅读 | simple.css / sakura.css / water.css / tufte.css |
 | Typora 长文写作 / 发布前预览 | notion-light-enhanced.css / autumnus.css / notes-light.css |
 
 ---
