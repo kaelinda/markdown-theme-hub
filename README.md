@@ -106,6 +106,32 @@ themes/content-platform/
 
 详见 [Apple 风格主题方案](themes/apple-platform/README.md)
 
+### 代码高亮主题 ⭐新增
+
+> 专为技术文档、开发者博客、API 文档设计
+
+| 主题 | 文件 | 风格 | 来源 |
+|------|------|------|------|
+| **VS Code Dark+** | [prism-vsc-dark-plus.css](themes/code-highlight/prism/prism-vsc-dark-plus.css) | 🌑 VS Code 默认暗色 | [PrismJS/prism-themes](https://github.com/PrismJS/prism-themes) |
+| **Atom Dark** | [prism-atom-dark.css](themes/code-highlight/prism/prism-atom-dark.css) | 🌑 Atom 编辑器暗色 | [PrismJS/prism-themes](https://github.com/PrismJS/prism-themes) |
+| **One Dark** | [prism-one-dark.css](themes/code-highlight/prism/prism-one-dark.css) | 🌑 Atom One Dark | [PrismJS/prism-themes](https://github.com/PrismJS/prism-themes) |
+| **Darcula** | [prism-darcula.css](themes/code-highlight/prism/prism-darcula.css) | 🌑 IntelliJ Darcula | [PrismJS/prism-themes](https://github.com/PrismJS/prism-themes) |
+| **GitHub Colors** | [prism-ghcolors.css](themes/code-highlight/prism/prism-ghcolors.css) | ☀️ GitHub 语法高亮 | [PrismJS/prism-themes](https://github.com/PrismJS/prism-themes) |
+
+**重要说明**：
+- 这些主题**仅用于代码块语法高亮**，不包含完整的 Markdown 文档样式
+- 需要配合 `content-platform/` 目录下的完整文档主题使用
+- 需要配合 Prism.js 库使用
+- 所有主题均为 MIT 许可
+
+**推荐组合**：
+- 技术博客：`simple.css` + `prism-vsc-dark-plus.css`
+- GitHub 风格：`github-light.css` + `prism-ghcolors.css`
+- 暗色主题：`github-dark.css` + `prism-one-dark.css`
+- 学术风格：`tufte.css` + `prism-ghcolors.css`
+
+详见 [代码高亮主题方案](themes/code-highlight/README.md)
+
 ---
 
 ## 🎨 快速推荐
@@ -114,6 +140,9 @@ themes/content-platform/
 |------|----------|
 | 公众号文章 | typo.css + smartisan.css + simple.css |
 | 技术博客 | github-light.css / simple.css / tufte.css / latex.css / autumnus.css |
+| **技术文档 / API 文档** | **simple.css + prism-vsc-dark-plus.css** / github-light.css + prism-ghcolors.css |
+| **开发者博客** | **simple.css + prism-one-dark.css** / github-dark.css + prism-atom-dark.css |
+| **README / 项目文档** | **github-light.css + prism-ghcolors.css** |
 | 学术论文 / 深度阅读 | tufte.css / latex.css |
 | 夜间阅读 | github-dark.css / smartisan-dark.css / simple.css（暗色模式） |
 | 中文文档 | typo.css / simple.css / autumnus.css |

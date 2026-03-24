@@ -51,7 +51,21 @@
 
 ---
 
-## 三、下一步补齐方向
+## 三、代码高亮主题
+
+| 主题 | 提到过 | 已收录 | 来源状态 | 备注 |
+|------|--------|--------|----------|------|
+| Prism VS Code Dark+ | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，VS Code 默认暗色主题风格，适合技术文档 |
+| Prism Atom Dark | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，Atom 编辑器暗色主题，适合暗色技术博客 |
+| Prism One Dark | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，Atom One Dark 主题，流行的暗色代码主题 |
+| Prism Darcula | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，IntelliJ Darcula 主题，Java 开发者熟悉 |
+| Prism GitHub Colors | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，GitHub 语法高亮风格，适合技术文档 |
+
+结论：本轮新增代码高亮专用主题类别，专门收录用于代码块语法高亮的 CSS 主题。这些主题不包含完整的 Markdown 文档样式，需要配合 `content-platform/` 目录下的文档主题使用。所有主题均来自 PrismJS 官方主题仓库，MIT 许可，Stars > 1000，质量成熟稳定。
+
+---
+
+## 四、下一步补齐方向
 
 ### 推荐优先级 P1
 - 寻找 Apple 风格可合法收录的真实上游开源主题源文件

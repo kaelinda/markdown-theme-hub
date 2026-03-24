@@ -64,6 +64,20 @@
 
 ---
 
+## code-highlight
+
+| 文件 | 状态 | 上游来源 |
+|------|------|----------|
+| `code-highlight/prism/prism-vsc-dark-plus.css` | source-original | https://github.com/PrismJS/prism-themes (`themes/prism-vsc-dark-plus.css`, MIT) |
+| `code-highlight/prism/prism-atom-dark.css` | source-original | https://github.com/PrismJS/prism-themes (`themes/prism-atom-dark.css`, MIT) |
+| `code-highlight/prism/prism-one-dark.css` | source-original | https://github.com/PrismJS/prism-themes (`themes/prism-one-dark.css`, MIT) |
+| `code-highlight/prism/prism-darcula.css` | source-original | https://github.com/PrismJS/prism-themes (`themes/prism-darcula.css`, MIT) |
+| `code-highlight/prism/prism-ghcolors.css` | source-original | https://github.com/PrismJS/prism-themes (`themes/prism-ghcolors.css`, MIT) |
+| `code-highlight/prism/LICENSE` | source-original | https://github.com/PrismJS/prism-themes (`LICENSE`, MIT) |
+| `code-highlight/README.md` | source-derived | 仓库内整理文档 |
+
+---
+
 ## 当前结论
 
 - 内容平台主题：目前基本符合“提到的主题已收录源文件”
