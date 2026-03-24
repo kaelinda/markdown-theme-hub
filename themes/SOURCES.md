@@ -29,6 +29,8 @@
 | `content-platform/LICENSE.tufte.txt` | source-original | https://github.com/edwardtufte/tufte-css (`LICENSE`, MIT) |
 | `content-platform/latex.css` | source-original | https://github.com/vincentdoerig/latex-css (`style.css`, MIT) |
 | `content-platform/LICENSE.latex.txt` | source-original | https://github.com/vincentdoerig/latex-css (`LICENSE`, MIT) |
+| `content-platform/heti.min.css` | source-original | https://github.com/sivan/heti (`umd/heti.min.css`, MIT) |
+| `content-platform/LICENSE.heti.txt` | source-original | https://github.com/sivan/heti (`LICENSE`, MIT) |
 | `content-platform/normalize.css` | source-original | 上游基础重置文件（当前仓库已收录） |
 | `content-platform/INSTALL.md` | source-derived | 仓库内整理文档 |
 | `content-platform/README.md` | source-derived | 仓库内整理文档 |
@@ -36,6 +38,18 @@
 | `content-platform/palettes.json` | source-derived | 仓库内整理元数据 |
 | `typora/notion-light-enhanced.css` | source-original | https://github.com/adrian-fuertes/typora-notion-theme (`themes/enhanced/notion-light-enhanced.css`, MIT) |
 | `typora/LICENSE.notion-theme.txt` | source-original | https://github.com/adrian-fuertes/typora-notion-theme (`LICENSE`, MIT) |
+
+---
+
+## minimal
+
+| 文件 | 状态 | 上游来源 |
+|------|------|----------|
+| `minimal/mvp.css` | source-original | https://github.com/andybrewer/mvp (`mvp.css`, MIT) |
+| `minimal/new.min.css` | source-original | https://github.com/xz/new.css (`new.min.css`, MIT) |
+| `minimal/sp.css` | source-original | https://github.com/susam/spcss (`sp.css`, MIT) |
+| `minimal/concrete.min.css` | source-original | https://github.com/louismerlin/concrete.css (`concrete.min.css`, MIT) |
+| `minimal/README.md` | source-derived | 仓库内整理文档 |
 
 ---
 

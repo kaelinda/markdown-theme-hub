@@ -70,6 +70,7 @@ themes/content-platform/
 |------|------|--------|----------|
 | **锤子便签** | [smartisan.css](themes/content-platform/smartisan.css) | ⭐⭐⭐⭐⭐ | 长文阅读、温暖风格 |
 | **Typo** | [typo.css](themes/content-platform/typo.css) | ⭐⭐⭐⭐ | 中文排版、公众号文章 |
+| **Heti（赫蹏）** ⭐新增 | [heti.min.css](themes/content-platform/heti.min.css) | ⭐⭐⭐⭐⭐ | 中文专属优化、古文诗词、竖排 |
 | **Simple.css** | [simple.css](themes/content-platform/simple.css) | ⭐⭐⭐⭐⭐ | 中文长文、技术文章、classless |
 | **Tufte CSS** | [tufte.css](themes/content-platform/tufte.css) | ⭐⭐⭐⭐⭐ | 学术论文、技术文章、深度阅读 |
 | **LaTeX.css** | [latex.css](themes/content-platform/latex.css) | ⭐⭐⭐⭐ | 学术风格、技术博客、LaTeX 视觉 |
@@ -84,6 +85,32 @@ themes/content-platform/
 **推荐安装方式**：[mdnice 一键导入](themes/content-platform/INSTALL.md)
 
 详见 [公众号主题安装方案](themes/content-platform/README.md)
+
+### 极简主题（Classless CSS）⭐新增
+
+> 无装饰、无 JS 依赖、轻量级，零 class 即可美化 HTML
+
+| 主题 | 文件 | 大小 | Stars | 适用场景 |
+|------|------|------|-------|----------|
+| **MVP.css** | [mvp.css](themes/minimal/mvp.css) | 10KB | 5K+ | 快速原型、现代设计、组件丰富 |
+| **new.css** | [new.min.css](themes/minimal/new.min.css) | 4.8KB | 4K+ | 简单博客、Markdown 渲染、暗色模式 |
+| **sp.css** | [sp.css](themes/minimal/sp.css) | 1.8KB | 966 | 纯阅读页、最轻量、暗色模式 |
+| **concrete.css** | [concrete.min.css](themes/minimal/concrete.min.css) | 3.1KB | 636 | 表单页面、文档、简约设计 |
+
+**特点**：
+- ✅ 无需 class，直接美化 HTML
+- ✅ 零 JavaScript 依赖
+- ✅ 支持暗色模式（`prefers-color-scheme`）
+- ✅ 极小体积，秒级加载
+- ✅ 适合快速原型、纯阅读页、技术文档
+
+**推荐场景**：
+- 快速原型开发 → `mvp.css`
+- 简单博客/Markdown 渲染 → `new.min.css`
+- 纯阅读页（最轻量）→ `sp.css`
+- 表单/文档页面 → `concrete.min.css`
+
+详见 [极简主题方案](themes/minimal/README.md)
 
 ### Apple 风格主题 ⭐新增
 
@@ -145,16 +172,21 @@ themes/content-platform/
 
 | 场景 | 推荐主题 |
 |------|----------|
-| 公众号文章 | typo.css + smartisan.css + simple.css |
+| **公众号文章** | typo.css + smartisan.css + simple.css |
+| **中文专属优化** | **heti.min.css** / typo.css / autumnus.css |
+| **古文/诗词/竖排** | **heti.min.css**（赫蹏，专为中文设计） |
 | 技术博客 | github-light.css / simple.css / tufte.css / latex.css / autumnus.css |
 | **技术文档 / API 文档** | **simple.css + prism-vsc-dark-plus.css** / github-light.css + prism-ghcolors.css |
 | **开发者博客** | **simple.css + prism-one-dark.css** / github-dark.css + prism-atom-dark.css |
 | **README / 项目文档** | **github-light.css + prism-ghcolors.css** |
 | 学术论文 / 深度阅读 | tufte.css / latex.css |
 | 夜间阅读 | github-dark.css / smartisan-dark.css / simple.css（暗色模式） |
-| 中文文档 | typo.css / simple.css / autumnus.css |
+| 中文文档 | typo.css / simple.css / autumnus.css / **heti.min.css** |
 | 独立博客 / 长文阅读 | simple.css / sakura.css / water.css / tufte.css |
 | Typora 长文写作 / 发布前预览 | notion-light-enhanced.css / autumnus.css / notes-light.css |
+| **快速原型** | **mvp.css**（极简现代，组件丰富） |
+| **纯阅读页** | **sp.css**（1.8KB，最轻量） |
+| **极简博客** | **new.min.css**（4.8KB，暗色模式） |
 
 ---
 
