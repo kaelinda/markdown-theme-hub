@@ -65,6 +65,24 @@
 
 ---
 
+## 四、Typora 暗色主题 ⭐新增
+
+| 主题 | 提到过 | 已收录 | 来源状态 | 备注 |
+|------|--------|--------|----------|------|
+| Vue Dark | ✅ | ✅ | source-original | 已收录 |
+| GitHub Night | ✅ | ✅ | source-original | 已收录 |
+| Dracula | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，26 stars，经典暗色主题，眼睛舒适 |
+| One Dark | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，190 stars，Atom One Dark 风格，Material Design 阴影效果 |
+| Drake Dark | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，3430 stars，简约暗色风格，来自 DrakeTyporaTheme |
+| Drake Ayu | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，3430 stars，Ayu 暗色风格，来自 DrakeTyporaTheme |
+| Drake Material | ✅ | ✅ | source-original | 2026-03-24 新增，MIT，3430 stars，Material 暗色风格，来自 DrakeTyporaTheme |
+| Cobalt | ✅ | ✅ | source-original | 2026-03-24 新增，396 stars，增强 UI 的暗色主题 |
+| Forest | ✅ | ✅ | source-original | 2026-03-24 新增，166 stars，森林风格暗色主题，绿色调 |
+
+结论：本轮新增 7 个高质量暗色主题，均为纯暗色设计（dark mode first），适合技术内容、长文阅读，单文件 CSS 易于集成，开源许可清晰。覆盖了多种流行风格：Dracula（经典）、One Dark（Atom 风格）、Drake 系列（简约）、Cobalt（增强 UI）、Forest（自然风格）。
+
+---
+
 ## 四、下一步补齐方向
 
 ### 推荐优先级 P1

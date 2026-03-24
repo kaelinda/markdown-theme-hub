@@ -39,6 +39,29 @@
 
 ---
 
+## typora
+
+| 文件 | 状态 | 上游来源 |
+|------|------|----------|
+| `typora/vue.css` | source-original | https://github.com/blinkfox/typora-vue-theme (`vue.css`) |
+| `typora/vue-dark.css` | source-original | https://github.com/blinkfox/typora-vue-theme (`vue-dark.css`) |
+| `typora/github-night.css` | source-original | https://github.com/kinoute/typora-github-night-theme (`github-night.css`) |
+| `typora/lapis.css` | source-original | https://github.com/YiNNx/typora-theme-lapis (`lapis.css`) |
+| `typora/autumnus.css` | source-original | https://github.com/Soanguy/typora-theme-autumnus (`autumnus.css`) |
+| `typora/dracula.css` | source-original | https://github.com/dracula/typora (`dracula.css`, MIT) |
+| `typora/dracula-mermaid.css` | source-original | https://github.com/dracula/typora (`dracula/mermaid.dark.css`, MIT) |
+| `typora/LICENSE.dracula.txt` | source-original | https://github.com/dracula/typora (`LICENSE`, MIT) |
+| `typora/onedark.css` | source-original | https://github.com/sweatran/typora-onedark-theme (`theme/onedark.css`, MIT) |
+| `typora/LICENSE.onedark.txt` | source-original | https://github.com/sweatran/typora-onedark-theme (`LICENSE`, MIT) |
+| `typora/drake-dark.css` | source-original | https://github.com/liangjingkanji/DrakeTyporaTheme (`drake-dark.css`, MIT) |
+| `typora/drake-ayu.css` | source-original | https://github.com/liangjingkanji/DrakeTyporaTheme (`drake-ayu.css`, MIT) |
+| `typora/drake-material.css` | source-original | https://github.com/liangjingkanji/DrakeTyporaTheme (`drake-material.css`, MIT) |
+| `typora/LICENSE.drake.txt` | source-original | https://github.com/liangjingkanji/DrakeTyporaTheme (`LICENSE`, MIT) |
+| `typora/cobalt.css` | source-original | https://github.com/elitistsnob/typora-cobalt-theme (`cobalt.css`) |
+| `typora/forest.css` | source-original | https://github.com/sylviaxgj/typora-forest-theme (`forest.css`) |
+
+---
+
 ## apple-platform
 
 | 文件 | 状态 | 上游来源 |

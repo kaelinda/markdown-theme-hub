@@ -56,6 +56,13 @@ themes/content-platform/
 | **Lapis** | [lapis.css](themes/typora/lapis.css) | 💙 清爽蓝色调 | [YiNNx/typora-theme-lapis](https://github.com/YiNNx/typora-theme-lapis) |
 | **Autumnus** | [autumnus.css](themes/typora/autumnus.css) | 🍂 中文优化 | [Soanguy/typora-theme-autumnus](https://github.com/Soanguy/typora-theme-autumnus) |
 | **Notion Light Enhanced** | [notion-light-enhanced.css](themes/typora/notion-light-enhanced.css) | 📝 长文发布 / 博客正文 / Notion 风格 | [adrian-fuertes/typora-notion-theme](https://github.com/adrian-fuertes/typora-notion-theme) |
+| **Dracula** ⭐新增 | [dracula.css](themes/typora/dracula.css) | 🧛 暗色主题 | [dracula/typora](https://github.com/dracula/typora) |
+| **One Dark** ⭐新增 | [onedark.css](themes/typora/onedark.css) | 🌑 Atom One Dark | [sweatran/typora-onedark-theme](https://github.com/sweatran/typora-onedark-theme) |
+| **Drake Dark** ⭐新增 | [drake-dark.css](themes/typora/drake-dark.css) | 🌑 简约暗色 | [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) |
+| **Drake Ayu** ⭐新增 | [drake-ayu.css](themes/typora/drake-ayu.css) | 🌑 Ayu 暗色 | [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) |
+| **Drake Material** ⭐新增 | [drake-material.css](themes/typora/drake-material.css) | 🌑 Material 暗色 | [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) |
+| **Cobalt** ⭐新增 | [cobalt.css](themes/typora/cobalt.css) | 🌑 Cobalt 暗色 | [elitistsnob/typora-cobalt-theme](https://github.com/elitistsnob/typora-cobalt-theme) |
+| **Forest** ⭐新增 | [forest.css](themes/typora/forest.css) | 🌲 森林暗色 | [sylviaxgj/typora-forest-theme](https://github.com/sylviaxgj/typora-forest-theme) |
 
 ### 公众号/内容平台主题 ⭐用户选择
 
