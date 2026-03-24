@@ -42,6 +42,26 @@ themes/content-platform/
 ./download-theme.sh all
 ```
 
+### 方式三：在线预览主题
+
+```bash
+# 方式 1: 本地打开预览页面
+open preview.html
+
+# 方式 2: 使用简单 HTTP 服务器
+python3 -m http.server 8080
+# 然后访问 http://localhost:8080/preview.html
+
+# 方式 3: GitHub Pages 在线预览
+# 访问 https://kaelinda.github.io/markdown-theme-hub/preview.html
+```
+
+**预览页面功能**：
+- 🎨 **主题切换**：实时预览所有主题效果
+- 📂 **分类浏览**：按类别筛选（内容平台、Typora、极简、Apple 风格、代码高亮）
+- 🌓 **暗色模式**：自动适配暗色主题背景
+- 💾 **记忆选择**：保存你的主题偏好
+
 ---
 
 ## 📦 已收录主题
