@@ -456,7 +456,10 @@ for i in range(10):
     const themeInfo = document.getElementById('theme-info');
     const themeStylesheet = document.getElementById('theme-stylesheet');
     
-    // Load saved preferences
+    // Persisted preferences (see README → "💾 偏好记忆 (localStorage)").
+    // Stable keys — renaming will silently reset every visitor's saved theme.
+    //   preview-category: 当前分类 ID (content-platform / typora / minimal / apple-platform / code-highlight)
+    //   preview-theme:    当前主题 CSS 文件名 (相对 themes/<category>/，含必要子路径，例如 prism/prism-one-dark.css)
     const savedCategory = localStorage.getItem('preview-category') || 'content-platform';
     const savedTheme = localStorage.getItem('preview-theme') || 'simple.css';
     

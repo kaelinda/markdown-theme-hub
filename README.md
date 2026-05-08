@@ -60,7 +60,56 @@ python3 -m http.server 8080
 - 🎨 **主题切换**：实时预览所有主题效果
 - 📂 **分类浏览**：按类别筛选（内容平台、Typora、极简、Apple 风格、代码高亮）
 - 🌓 **暗色模式**：自动适配暗色主题背景
-- 💾 **记忆选择**：保存你的主题偏好
+- 💾 **记忆选择**：自动保存上次浏览的分类与主题，下次打开页面时恢复（详见下方 [💾 偏好记忆 (localStorage)](#-偏好记忆-localstorage)）
+
+---
+
+## 💾 偏好记忆 (localStorage)
+
+预览页面 (`preview.html`) 会将你最近一次选择的**分类**与**主题**写入浏览器 `localStorage`，下次打开时自动恢复，不需要任何登录或后端服务。
+
+### 存储位置
+
+记忆数据存放在打开 `preview.html` 的那个**浏览器域 (origin)** 的 `localStorage` 中：
+
+- 本地直接打开：`file://` 协议下，每个浏览器独立保存
+- 本地服务器：例如 `http://localhost:8080`，按 host:port 隔离
+- GitHub Pages：`https://kaelinda.github.io` 域下保存
+
+### 存储字段
+
+| Key | 类型 | 含义 | 默认值 |
+|-----|------|------|--------|
+| `preview-category` | string | 当前选择的分类 ID | `content-platform` |
+| `preview-theme` | string | 当前主题 CSS 文件名（含子路径） | `simple.css` |
+
+`preview-category` 取值范围：`content-platform` / `typora` / `minimal` / `apple-platform` / `code-highlight`。
+
+`preview-theme` 是 CSS 文件名，例如 `simple.css`、`apple-notes-light.css`，代码高亮分类下会带子目录前缀，如 `prism/prism-vsc-dark-plus.css`。
+
+### 读写时机
+
+- **读取（页面初始化时）**：`init()` 调用 `localStorage.getItem('preview-category')` 与 `localStorage.getItem('preview-theme')`，缺失时回退到默认值。
+- **写入（每次切换主题时）**：`applyTheme()` 调用 `localStorage.setItem(...)` 同步保存当前选择。
+- **降级行为**：如果某次升级后保存的主题已不在主题列表中（例如主题被移除或重命名），页面会自动回退到该分类的第一个主题，不会报错。
+
+### 清除偏好
+
+如果你想恢复到默认主题（`simple.css`），可在浏览器开发者工具的 Console 中执行：
+
+```js
+localStorage.removeItem('preview-category');
+localStorage.removeItem('preview-theme');
+location.reload();
+```
+
+或者直接清空整个站点 / 文件来源的本地存储：浏览器设置 → 隐私 → 清除浏览数据 → 仅勾选"站点数据"。
+
+### 隐私说明
+
+- 偏好仅保存在**你本地的浏览器**中，**不会**上传到任何服务器
+- 仓库不内置任何分析、埋点或第三方脚本
+- 切换浏览器或清除浏览数据会自动重置为默认主题
 
 ---
 
